@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfMorphicTestingFramework",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfMorphicTestingFramework",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
