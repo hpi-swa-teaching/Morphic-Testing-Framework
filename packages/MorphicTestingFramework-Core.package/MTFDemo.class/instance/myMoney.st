@@ -1,3 +1,3 @@
 accessing
 myMoney
-	^ '15k'
+	^ '25k'
