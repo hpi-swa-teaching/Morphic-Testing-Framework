@@ -1,13 +1,13 @@
 {
-	"category" : "MorphicTestingFramework-Tests",
+	"category" : "MorphicTestingFramework-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"demo" ],
-	"name" : "MTFDemoTest",
+		 ],
+	"name" : "MTFTestCase",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
