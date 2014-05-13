@@ -1,0 +1,15 @@
+{
+	"category" : "MorphicTestingFramework-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"button",
+		"textfield" ],
+	"name" : "SimpleForm",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
