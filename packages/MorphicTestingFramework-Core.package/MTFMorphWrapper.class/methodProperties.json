@@ -2,5 +2,9 @@
 	"class" : {
 		"newWith:" : "DS 5/13/2014 10:50" },
 	"instance" : {
+		"click" : "cw 5/13/2014 17:26",
+		"generateMouseDownEvent" : "cw 5/13/2014 17:21",
+		"generateMouseEvent:" : "cw 5/13/2014 17:25",
+		"generateMouseUpEvent" : "cw 5/13/2014 17:22",
 		"morph" : "DS 5/13/2014 10:46",
 		"morph:" : "DS 5/13/2014 10:46" } }
