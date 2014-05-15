@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testSUnitIntegration" : "LS 5/10/2014 18:56" } }
+		"click" : "mb 5/15/2014 11:49",
+		"testSUnitIntegration" : "LS 5/10/2014 18:56",
+		"testWrapperClick" : "mb 5/15/2014 11:46",
+		"testWrapperClick2" : "mb 5/15/2014 11:55" } }
