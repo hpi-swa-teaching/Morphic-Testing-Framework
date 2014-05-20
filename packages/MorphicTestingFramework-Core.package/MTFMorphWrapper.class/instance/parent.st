@@ -1,0 +1,4 @@
+properties
+parent
+
+	^ morph owner.

@@ -1,4 +1,4 @@
-The EventBuffer is a Array and contains 9 values
+The EventBuffer is an Array and contains 9 numeric values
 
 1 - EventType
 Values:
@@ -8,6 +8,9 @@ Values:
 	5: EventTypeWindow
 	
 2 - Time stamp
+	use
+		Time millisecondClockValue 
+	to set a time
 3 - Position X
 4 - Position Y
 5 - Buttons

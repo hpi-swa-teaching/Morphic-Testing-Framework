@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"click" : "mb 5/15/2014 11:49",
+		"testMethodDelegationBounds" : "cw 5/20/2014 22:52",
+		"testMethodDelegationColor" : "cw 5/20/2014 13:49",
+		"testMethodparentSubmorph" : "cw 5/20/2014 14:07",
+		"testMethodparentWorld" : "cw 5/20/2014 14:09",
 		"testSUnitIntegration" : "LS 5/10/2014 18:56",
-		"testWrapperClick" : "mb 5/15/2014 11:46",
-		"testWrapperClick2" : "mb 5/15/2014 11:55" } }
+		"testWrapperClick" : "mb 5/15/2014 11:46" } }
