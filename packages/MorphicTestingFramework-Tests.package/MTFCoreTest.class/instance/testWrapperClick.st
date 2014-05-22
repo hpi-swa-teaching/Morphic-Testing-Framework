@@ -1,13 +1,1 @@
-test cases
-testWrapperClick
-	| form buttonWrapper |
-
-	form := SimpleForm new.
-	form openInWorld.
-	self assert: (form color = Color white).
-	
-	buttonWrapper := MTFMorphWrapper newWith: (form button).
-	buttonWrapper click.
-	
-	self assert: (form color = Color blue).
-	form delete
+test casestestWrapperClick	| buttonWrapper |	self assert: (self testForm color = Color white).		buttonWrapper := MTFMorphWrapper newWith: (testForm button).	buttonWrapper click.		self assert: (testForm color = Color blue).

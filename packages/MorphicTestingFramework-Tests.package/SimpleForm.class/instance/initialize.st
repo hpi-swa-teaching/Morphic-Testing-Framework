@@ -6,4 +6,6 @@ initialize
 		button: SimpleButtonMorph new;
 		textfield: TextMorph new;
 		applyStyle;
-		initializeInteractions
+		initializeInteractions.
+	
+	self button name: 'button_change_color'.
