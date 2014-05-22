@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"click" : "mb 5/15/2014 11:49",
+		"setUp" : "mb 5/20/2014 12:06",
+		"tearDown" : "mb 5/20/2014 11:57",
+		"testForm" : "mb 5/20/2014 11:55",
+		"testForm:" : "mb 5/20/2014 11:55",
+		"testMethodDelegationBounds" : "cw 5/20/2014 22:52",
+		"testMethodDelegationColor" : "cw 5/20/2014 13:49",
+		"testMethodparentSubmorph" : "cw 5/20/2014 14:07",
+		"testMethodparentWorld" : "cw 5/20/2014 14:09",
+		"testSUnitIntegration" : "LS 5/10/2014 18:56",
+		"testWrapperClick" : "mb 5/20/2014 12:08",
+		"testWrapperContains" : "mb 5/20/2014 12:16",
+<<<<<<< HEAD
+		"testWrapperFindByName" : "mb 5/20/2014 12:17" } }
+=======
+		"testWrapperFindByName" : "mb 5/22/2014 10:23" } }
+>>>>>>> add contains: method and findByName
