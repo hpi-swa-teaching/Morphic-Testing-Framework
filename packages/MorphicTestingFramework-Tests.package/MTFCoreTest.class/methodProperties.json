@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"click" : "mb 5/15/2014 11:49",
 		"setUp" : "mb 5/20/2014 12:06",
 		"tearDown" : "mb 5/20/2014 11:57",
 		"testForm" : "mb 5/20/2014 11:55",
@@ -14,4 +13,4 @@
 		"testSUnitIntegration" : "LS 5/10/2014 18:56",
 		"testWrapperClick" : "mb 5/20/2014 12:08",
 		"testWrapperContains" : "mb 5/20/2014 12:16",
-		"testWrapperFindByName" : "mb 5/20/2014 12:17" } }
+		"testWrapperFindByName" : "mb 5/22/2014 10:23" } }

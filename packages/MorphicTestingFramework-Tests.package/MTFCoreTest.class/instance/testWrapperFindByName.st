@@ -3,4 +3,4 @@ testWrapperFindByName
 
 	| wrapper |
 	wrapper := MTFMorphWrapper newWith: self testForm.
-	self assert: ((wrapper findByName: 'button') contains: self testForm button).
+	self assert: ((wrapper findByName: 'button_change_color') contains: self testForm button).

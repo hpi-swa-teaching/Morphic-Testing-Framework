@@ -3,8 +3,9 @@
 		"newWith:" : "DS 5/13/2014 10:50" },
 	"instance" : {
 		"click" : "cw 5/13/2014 17:26",
+		"contains:" : "mb 5/22/2014 10:05",
 		"doesNotUnderstand:" : "cw 5/20/2014 13:45",
+		"findByName:" : "mb 5/22/2014 10:21",
 		"generateMouseEvent:" : "cw 5/13/2014 17:25",
-		"morph" : "DS 5/13/2014 10:46",
 		"morph:" : "DS 5/13/2014 10:46",
 		"parent" : "cw 5/20/2014 13:54" } }
