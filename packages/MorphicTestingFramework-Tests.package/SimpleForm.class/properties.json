@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"button",
-		"textfield" ],
+		"textfield",
+		"panel",
+		"panelButton" ],
 	"name" : "SimpleForm",
 	"pools" : [
 		 ],

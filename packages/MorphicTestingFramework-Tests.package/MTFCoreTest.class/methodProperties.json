@@ -13,4 +13,6 @@
 		"testSUnitIntegration" : "LS 5/10/2014 18:56",
 		"testWrapperClick" : "mb 5/20/2014 12:08",
 		"testWrapperContains" : "mb 5/20/2014 12:16",
-		"testWrapperFindByName" : "mb 5/22/2014 10:23" } }
+		"testWrapperFindByClass" : "mb 5/22/2014 15:23",
+		"testWrapperFindByName" : "mb 5/22/2014 10:23",
+		"testWrapperFindDeepByName" : "mb 5/22/2014 15:43" } }
