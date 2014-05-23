@@ -15,4 +15,6 @@
 		"testWrapperContains" : "mb 5/20/2014 12:16",
 		"testWrapperFindByClass" : "mb 5/22/2014 15:23",
 		"testWrapperFindByName" : "mb 5/22/2014 10:23",
-		"testWrapperFindDeepByName" : "mb 5/22/2014 15:43" } }
+		"testWrapperFindDeepByClass" : "mb 5/24/2014 01:52",
+		"testWrapperFindDeepByName" : "mb 5/22/2014 15:43",
+		"testWrapperFindMultiByClass" : "mb 5/24/2014 01:56" } }
