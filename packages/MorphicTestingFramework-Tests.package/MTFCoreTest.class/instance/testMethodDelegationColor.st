@@ -6,6 +6,6 @@ testMethodDelegationColor
 		color: Color white;
 		openInWorld.
 		self assert: testMorph color = Color white.
-	wrapper := MTFMorphWrapper newWith: testMorph.
+	wrapper := MTFMorphWrapper newWith: {testMorph}.
 	self assert: wrapper color = Color white.
 	testMorph delete.

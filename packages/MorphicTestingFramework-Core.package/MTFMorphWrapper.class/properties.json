@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"morph" ],
+		"morphs" ],
 	"name" : "MTFMorphWrapper",
 	"pools" : [
 		 ],

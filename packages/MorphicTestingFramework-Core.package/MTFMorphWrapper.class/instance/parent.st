@@ -1,4 +1,4 @@
 properties
 parent
 
-	^ morph owner.
+	^ morphs first owner.

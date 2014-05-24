@@ -1,4 +1,4 @@
 as yet unclassified
 contains: aMorph
 
-	^ aMorph = self morph.
+	^ (self morphs select: [:morph | morph = aMorph]) isEmpty not.

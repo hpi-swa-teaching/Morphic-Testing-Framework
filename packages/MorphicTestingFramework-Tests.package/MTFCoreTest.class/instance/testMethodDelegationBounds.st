@@ -6,6 +6,6 @@ testMethodDelegationBounds
 	testMorph 
 		openInWorld;
 		bounds: specificBounds.
-	wrapper := MTFMorphWrapper newWith: testMorph.
+	wrapper := MTFMorphWrapper newWith: {testMorph}.
 	self assert: wrapper bounds = specificBounds.
 	testMorph delete.

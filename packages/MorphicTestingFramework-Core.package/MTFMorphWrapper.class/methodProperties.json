@@ -1,13 +1,14 @@
 {
 	"class" : {
-		"newWith:" : "DS 5/13/2014 10:50" },
+		"newWith:" : "mb 5/24/2014 12:58" },
 	"instance" : {
-		"click" : "cw 5/13/2014 17:26",
-		"contains:" : "mb 5/22/2014 10:05",
-		"doesNotUnderstand:" : "cw 5/20/2014 13:45",
-		"findByClass:" : "mb 5/22/2014 15:24",
-		"findByName:" : "mb 5/22/2014 10:21",
+		"click" : "mb 5/24/2014 12:05",
+		"contains:" : "mb 5/24/2014 12:44",
+		"doesNotUnderstand:" : "mb 5/24/2014 13:03",
+		"findByClass:" : "mb 5/24/2014 12:52",
+		"findByName:" : "mb 5/24/2014 12:52",
 		"generateMouseEvent:" : "cw 5/13/2014 17:25",
-		"morph" : "mb 5/22/2014 10:25:31.141",
-		"morph:" : "DS 5/13/2014 10:46",
-		"parent" : "cw 5/20/2014 13:54" } }
+		"generateMouseEvent:on:" : "mb 5/24/2014 13:05",
+		"morphs" : "mb 5/24/2014 11:56",
+		"morphs:" : "mb 5/24/2014 11:57",
+		"parent" : "mb 5/24/2014 12:47" } }

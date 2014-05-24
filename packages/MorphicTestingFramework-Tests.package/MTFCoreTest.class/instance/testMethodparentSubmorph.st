@@ -5,7 +5,7 @@ testMethodparentSubmorph
 	parentMorph openInWorld.
 	subMorph := Morph new.
 	parentMorph addMorph: subMorph.
-	subWrapper := MTFMorphWrapper newWith: subMorph.
+	subWrapper := MTFMorphWrapper newWith: {subMorph}.
 	self assert: subWrapper parent = parentMorph.
 	parentMorph delete.
 	
