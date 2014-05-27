@@ -1,7 +1,6 @@
-as yet unclassified
+finding
 findByName: aName
 
-	| foundMorph wrapper |
-	foundMorph := self morph submorphNamed: aName.
-	wrapper := MTFMorphWrapper newWith: foundMorph.
-	^ wrapper.
+	^MTFMorphWrapper newWith: (self findByCriteria: [ :curMorph |
+		curMorph nameOfObjectRepresented = aName.
+	])

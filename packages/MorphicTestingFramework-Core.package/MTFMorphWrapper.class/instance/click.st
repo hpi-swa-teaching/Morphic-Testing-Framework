@@ -1,6 +1,8 @@
 interacting
 click
 	
-	self morph 
-		mouseDown: (self generateMouseEvent: #mouseDown);
-		mouseUp: (self generateMouseEvent: #mouseUp)
+	self morphs do: [ :morph |
+		morph
+			mouseDown: (self generateMouseEvent: #mouseDown on: morph);
+			mouseUp: (self generateMouseEvent: #mouseUp on: morph).
+	].

@@ -1,6 +1,6 @@
 instance creation
-newWith: aMorph
+newWith: Morphs
 	|wrapper|
 	wrapper := self new.
-	wrapper morph: aMorph.
+	wrapper morphs: Morphs.
 	^wrapper

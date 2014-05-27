@@ -1,7 +1,6 @@
-as yet unclassified
+finding
 findByClass: aClass
 
-	| foundMorph wrapper |
-	foundMorph := self morph submorphOfClass: aClass.
-	wrapper := MTFMorphWrapper newWith: foundMorph.
-	^ wrapper.
+	^MTFMorphWrapper newWith: (self findByCriteria: [ :curMorph |
+		curMorph class = aClass.
+	])

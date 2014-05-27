@@ -1,4 +1,4 @@
 delegation
 doesNotUnderstand: aMessage
 
-	^ morph perform: aMessage selector.
+	^ morphs first perform: aMessage selector.
