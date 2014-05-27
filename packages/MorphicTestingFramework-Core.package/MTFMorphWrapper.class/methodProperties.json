@@ -10,8 +10,9 @@
 		"findByName:" : "LS 5/27/2014 11:37",
 		"forDeepMorphsDo:" : "LS 5/27/2014 11:25",
 		"forDeepSubMorphsOf:do:" : "LS 5/27/2014 11:11",
-		"generateMouseEvent:" : "cw 5/13/2014 17:25",
+		"generateKeyboardEvent:with:on:" : "cw 5/27/2014 12:55",
 		"generateMouseEvent:on:" : "mb 5/24/2014 13:05",
 		"morphs" : "mb 5/24/2014 11:56",
 		"morphs:" : "mb 5/24/2014 11:57",
-		"parent" : "mb 5/24/2014 12:47" } }
+		"parent" : "mb 5/24/2014 12:47",
+		"sendKey:" : "cw 5/27/2014 12:58" } }

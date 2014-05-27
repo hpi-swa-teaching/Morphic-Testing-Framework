@@ -10,7 +10,7 @@
 		"textfield",
 		"panel",
 		"panelButton" ],
-	"name" : "SimpleForm",
+	"name" : "MTFSimpleForm",
 	"pools" : [
 		 ],
 	"super" : "Morph",

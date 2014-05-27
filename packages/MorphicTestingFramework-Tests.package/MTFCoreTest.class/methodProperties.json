@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "mb 5/20/2014 12:06",
+		"setUp" : "cw 5/27/2014 13:00",
 		"tearDown" : "mb 5/20/2014 11:57",
 		"testForm" : "mb 5/20/2014 11:55",
 		"testForm:" : "mb 5/20/2014 11:55",
@@ -17,4 +17,5 @@
 		"testWrapperFindByName" : "mb 5/24/2014 12:55",
 		"testWrapperFindDeepByClass" : "mb 5/24/2014 12:55",
 		"testWrapperFindDeepByName" : "mb 5/24/2014 12:56",
-		"testWrapperFindMultiByClass" : "mb 5/24/2014 12:57" } }
+		"testWrapperFindMultiByClass" : "mb 5/24/2014 12:57",
+		"testWrappersendKeyKeystroke" : "cw 5/27/2014 13:20" } }

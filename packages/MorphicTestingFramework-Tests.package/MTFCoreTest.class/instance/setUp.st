@@ -1,5 +1,5 @@
 running
 setUp
 
-	self testForm: SimpleForm new.
+	self testForm: MTFSimpleForm new.
 	self testForm openInWorld.
