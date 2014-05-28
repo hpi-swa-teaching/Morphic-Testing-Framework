@@ -4,7 +4,9 @@ initialize
 	super initialize.
 	self
 		button: SimpleButtonMorph new;
-		textfield: TextMorph new;
+		textfield1: TextMorph new;
+		textfield2: TextMorph new;
+		textfield3: TextMorph new;
 		panel: Morph new;
 		panelButton: SimpleButtonMorph new;
 		applyStyle;

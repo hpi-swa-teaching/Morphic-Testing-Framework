@@ -1,4 +1,4 @@
 interacting
 click
 	
-	self color: (Color blue)
+	self color: Color blue

@@ -1,6 +1,7 @@
 interacting
-sendKey: aSymbol
+sendKey: aCharacter
 
 	self morphs do: [ :morph |
-		morph keyStroke: (self generateKeyboardEvent: #keystroke with: aSymbol on: morph).	
+		morph keyStroke: 
+			(self generateKeyboardEvent: #keystroke with: aCharacter on: morph).	
 	].
