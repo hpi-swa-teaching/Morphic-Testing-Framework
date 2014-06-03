@@ -3,6 +3,7 @@
 		"newWith:" : "mb 5/24/2014 12:58" },
 	"instance" : {
 		"click" : "mb 5/24/2014 12:05",
+		"clickAt:" : "mb 6/3/2014 12:18",
 		"contains:" : "mb 5/24/2014 12:44",
 		"doesNotUnderstand:" : "mb 5/24/2014 13:03",
 		"findByClass:" : "LS 5/27/2014 11:33",
