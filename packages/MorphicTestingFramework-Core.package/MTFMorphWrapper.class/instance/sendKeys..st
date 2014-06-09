@@ -1,5 +1,5 @@
 interacting
-sendText: aString
+sendKeys: aString
 
 	self morphs do: [ :morph |
 		aString do: [ :character | morph keyStroke: 

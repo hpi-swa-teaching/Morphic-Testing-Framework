@@ -20,5 +20,5 @@
 		"testWrapperFindMultiByClass" : "mb 5/24/2014 12:57",
 		"testWrapperSendKeyKeystroke" : "cw 5/28/2014 11:59",
 		"testWrapperSendKeyKeystrokeMultipleMorphs" : "cw 5/28/2014 12:28",
-		"testWrapperSendText" : "cw 5/28/2014 11:58",
-		"testWrapperSendTextWithExistingText" : "cw 5/28/2014 11:51" } }
+		"testWrapperSendKeys" : "cw 6/9/2014 19:28",
+		"testWrapperSendKeysWithExistingText" : "cw 6/9/2014 19:27" } }
