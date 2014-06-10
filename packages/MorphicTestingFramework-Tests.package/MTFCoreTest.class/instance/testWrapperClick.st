@@ -2,9 +2,9 @@ test cases
 testWrapperClick
 
 	| buttonWrapper |
-	self assert: (self testForm color = Color white).
+	self assert: (self subject color = Color white).
 	
-	buttonWrapper := MTFMorphWrapper newWith: {testForm button}.
+	buttonWrapper := MTFMorphWrapper newWith: {subject button}.
 	buttonWrapper click.
 	
-	self assert: (testForm color = Color blue).
+	self assert: (subject color = Color blue).

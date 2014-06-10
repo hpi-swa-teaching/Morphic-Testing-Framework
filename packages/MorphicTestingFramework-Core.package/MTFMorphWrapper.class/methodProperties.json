@@ -1,9 +1,12 @@
 {
 	"class" : {
-		"newWith:" : "mb 5/24/2014 12:58" },
+		"newWith:" : "PA 6/10/2014 11:55",
+		"newWith:withDelay:" : "PA 6/10/2014 11:54" },
 	"instance" : {
-		"click" : "mb 5/24/2014 12:05",
+		"click" : "PA 6/10/2014 12:59",
 		"contains:" : "mb 5/24/2014 12:44",
+		"delay" : "PA 6/10/2014 12:04",
+		"delay:" : "PA 6/10/2014 12:04",
 		"doesNotUnderstand:" : "mb 5/24/2014 13:03",
 		"findByClass:" : "LS 5/27/2014 11:33",
 		"findByCriteria:" : "LS 5/27/2014 11:33",
@@ -15,5 +18,6 @@
 		"morphs" : "mb 5/24/2014 11:56",
 		"morphs:" : "mb 5/24/2014 11:57",
 		"parent" : "mb 5/24/2014 12:47",
-		"sendKey:" : "cw 5/28/2014 11:18",
-		"sendKeys:" : "cw 6/9/2014 19:25" } }
+		"sendKey:" : "PA 6/10/2014 13:00",
+		"sendKeys:" : "PA 6/10/2014 13:00",
+		"wait" : "PA 6/10/2014 13:02" } }

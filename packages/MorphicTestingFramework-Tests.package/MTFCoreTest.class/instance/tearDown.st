@@ -1,4 +1,4 @@
 running
 tearDown 
 
-	self testForm delete.
+	self subject delete.

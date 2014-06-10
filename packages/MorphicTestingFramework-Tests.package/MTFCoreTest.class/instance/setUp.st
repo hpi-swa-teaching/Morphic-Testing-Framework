@@ -1,5 +1,4 @@
 running
 setUp
 
-	self testForm: MTFSimpleForm new.
-	"self testForm openInWorld"
+	self subject: MTFSimpleForm new.

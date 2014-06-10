@@ -2,5 +2,5 @@ test cases
 testWrapperFindByClass
 
 	| wrapper |
-	wrapper := MTFMorphWrapper newWith: {self testForm}.
-	self assert: ((wrapper findByClass: SimpleButtonMorph) contains: self testForm button).
+	wrapper := MTFMorphWrapper newWith: {self subject}.
+	self assert: ((wrapper findByClass: SimpleButtonMorph) contains: self subject button).

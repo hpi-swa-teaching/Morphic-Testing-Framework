@@ -2,6 +2,6 @@ test cases
 testWrapperContains
 
 	| wrapper |
-	wrapper := MTFMorphWrapper newWith: {self testForm}.
-	self assert: (wrapper contains: self testForm).
-	self assert: (wrapper contains: self testForm submorphs first) not.
+	wrapper := MTFMorphWrapper newWith: {self subject}.
+	self assert: (wrapper contains: self subject).
+	self assert: (wrapper contains: self subject submorphs first) not.

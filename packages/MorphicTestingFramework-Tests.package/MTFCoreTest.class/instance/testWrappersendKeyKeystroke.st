@@ -2,8 +2,8 @@ test cases
 testWrapperSendKeyKeystroke
 	
 	| wrapper |
-	wrapper := MTFMorphWrapper newWith: {self testForm textfield1}.
-	self testForm textfield1 newContents: ''.
+	wrapper := MTFMorphWrapper newWith: {self subject textfield1}.
+	self subject textfield1 newContents: ''.
 	wrapper sendKey: $a.
 	self assert: (wrapper text = 'a').
 	wrapper sendKey: $G.

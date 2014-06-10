@@ -2,8 +2,8 @@ test cases
 testWrapperSendKeys
 	
 	| wrapper |
-	wrapper := MTFMorphWrapper newWith: {self testForm textfield1}.
-	self testForm textfield1 newContents: ''.
+	wrapper := MTFMorphWrapper newWith: {self subject textfield1}.
+	self subject textfield1 newContents: ''.
 	wrapper sendKeys: 'Hello'.
 	self assert: (wrapper text = 'Hello').
 	wrapper sendKeys: ' World!'.

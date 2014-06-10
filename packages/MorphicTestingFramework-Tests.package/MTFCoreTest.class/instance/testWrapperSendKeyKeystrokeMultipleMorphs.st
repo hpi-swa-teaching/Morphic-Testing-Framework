@@ -2,12 +2,12 @@ test cases
 testWrapperSendKeyKeystrokeMultipleMorphs
 	
 	| wrapper textfields |
-	textfields := Set with: (self testForm textfield1) with: (self testForm textfield2) with: (self testForm textfield3).
+	textfields := Set with: (self subject textfield1) with: (self subject textfield2) with: (self subject textfield3).
 	wrapper := MTFMorphWrapper newWith: textfields.
-	self testForm textfield1 newContents: ''.
-	self testForm textfield2 newContents: ''.
-	self testForm textfield3 newContents: ''.
+	self subject textfield1 newContents: ''.
+	self subject textfield2 newContents: ''.
+	self subject textfield3 newContents: ''.
 	wrapper sendKey: $a.
-	self assert: (self testForm textfield1 text = 'a').
-	self assert: (self testForm textfield2 text = 'a').
-	self assert: (self testForm textfield3 text = 'a').
+	self assert: (self subject textfield1 text = 'a').
+	self assert: (self subject textfield2 text = 'a').
+	self assert: (self subject textfield3 text = 'a').
