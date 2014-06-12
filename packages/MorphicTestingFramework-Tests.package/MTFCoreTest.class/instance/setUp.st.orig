@@ -1,9 +1,0 @@
-running
-setUp
-
-<<<<<<< HEAD
-	self testForm: MTFSimpleForm new.
-	"self testForm openInWorld"
-=======
-	self subject: MTFSimpleForm new.
->>>>>>> added delay implementation and test

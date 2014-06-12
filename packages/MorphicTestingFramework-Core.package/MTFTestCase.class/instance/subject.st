@@ -1,4 +1,4 @@
 accessing
 subject
 
-	^subject
+	 ^subject

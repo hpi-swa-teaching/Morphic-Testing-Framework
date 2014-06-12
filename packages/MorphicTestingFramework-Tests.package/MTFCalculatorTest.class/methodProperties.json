@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "mb 6/12/2014 20:20",
+		"tearDown" : "mb 6/12/2014 18:51",
+		"testCalculatorNumberInput" : "mb 6/12/2014 19:57" } }
