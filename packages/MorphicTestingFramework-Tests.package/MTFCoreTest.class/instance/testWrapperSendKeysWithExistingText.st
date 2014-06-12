@@ -1,4 +1,4 @@
-test cases
+interaction tests
 testWrapperSendKeysWithExistingText
 	
 	| wrapper |

@@ -1,4 +1,4 @@
 running
 setUp
-
-	self subject: MTFSimpleForm new.
+	
+	self wantsToTest: MTFSimpleForm new.

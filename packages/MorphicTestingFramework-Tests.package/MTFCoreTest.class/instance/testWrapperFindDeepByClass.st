@@ -1,4 +1,4 @@
-test cases
+search tests
 testWrapperFindDeepByClass
 
 	| wrapper |
