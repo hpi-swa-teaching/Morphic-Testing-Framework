@@ -14,6 +14,9 @@ Values:
 3 - Position X
 4 - Position Y
 5 - Buttons
+	strg
+	alt
+	shift
 6 - Modifiers
 7 - ???
 8 - ???
