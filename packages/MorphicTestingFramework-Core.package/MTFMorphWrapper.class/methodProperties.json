@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"classesWithLabel" : "mb 6/13/2014 16:55",
 		"newWith:" : "PA 6/10/2014 11:55",
 		"newWith:withDelay:" : "PA 6/10/2014 11:54" },
 	"instance" : {
@@ -9,17 +10,18 @@
 		"delay:" : "PA 6/10/2014 12:04",
 		"deleteMorphs" : "cw 6/12/2014 11:18",
 		"doesNotUnderstand:" : "mb 6/12/2014 20:16",
-		"findByClass:" : "LS 5/27/2014 11:33",
+		"findByClass:" : "mb 6/13/2014 14:37",
 		"findByCriteria:" : "LS 5/27/2014 11:33",
-		"findByLabel:" : "mb 6/12/2014 19:29",
-		"findByName:" : "LS 5/27/2014 11:37",
+		"findByLabel:" : "mb 6/13/2014 16:56",
+		"findByName:" : "mb 6/13/2014 14:38",
 		"forDeepMorphsDo:" : "LS 5/27/2014 11:25",
 		"forDeepSubMorphsOf:do:" : "LS 5/27/2014 11:11",
 		"generateKeyboardEvent:with:on:" : "cw 5/27/2014 12:55",
 		"generateMouseEvent:on:" : "mb 5/24/2014 13:05",
+		"labelSupportFor:" : "mb 6/13/2014 16:56",
 		"morphs" : "mb 5/24/2014 11:56",
 		"morphs:" : "mb 5/24/2014 11:57",
 		"parent" : "mb 5/24/2014 12:47",
 		"sendKey:" : "PA 6/10/2014 13:00",
 		"sendKeys:" : "PA 6/10/2014 13:00",
-		"wait" : "PA 6/10/2014 13:02" } }
+		"wait" : "mb 6/13/2014 16:58" } }

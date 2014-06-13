@@ -1,7 +1,9 @@
 running
 slowTestBy: aNumber
 
-	self subject openInWorld.
-	self subject redraw.
 	self delay: aNumber.
-	self subject delay: aNumber.
+	self timeout: 60.
+	self subject 
+		openInWorld;
+		redraw;
+		delay: aNumber.

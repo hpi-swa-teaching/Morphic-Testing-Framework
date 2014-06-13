@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTestingFramework-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MTFUtil",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
