@@ -5,8 +5,9 @@ testCalculatorNumberInput
 	expectedText := '0'.
 	display := self subject findByClass: TextFieldMorph.
 	self assert: display contents = expectedText.
-	9 to: 0 do: [:number |
+	expectedText := ''.
+	9 to: 0 by: -1 do: [:number |
 		expectedText := expectedText, number asString.
-		self subject findByLabel: (number asString) click.
+		(self subject findByLabel: (number asString)) click.
 		self assert: display contents = expectedText.
 	].

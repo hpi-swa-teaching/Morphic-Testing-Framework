@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "mb 6/12/2014 20:20",
+		"setUp" : "mb 6/13/2014 14:41",
 		"tearDown" : "mb 6/12/2014 18:51",
-		"testCalculatorNumberInput" : "mb 6/12/2014 19:57" } }
+		"testCalculatorAddition" : "mb 6/13/2014 17:25",
+		"testCalculatorNumberInput" : "mb 6/13/2014 16:20" } }

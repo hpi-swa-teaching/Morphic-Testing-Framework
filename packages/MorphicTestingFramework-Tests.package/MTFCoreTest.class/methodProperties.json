@@ -15,6 +15,7 @@
 		"testWrapperDelay" : "cw 6/12/2014 11:52",
 		"testWrapperDelayMorphInWorld" : "cw 6/12/2014 12:04",
 		"testWrapperFindByClass" : "PA 6/10/2014 12:00",
+		"testWrapperFindByLabel" : "mb 6/13/2014 16:35",
 		"testWrapperFindByName" : "PA 6/10/2014 12:00",
 		"testWrapperFindDeepByClass" : "PA 6/10/2014 12:00",
 		"testWrapperFindDeepByName" : "PA 6/10/2014 12:00",
