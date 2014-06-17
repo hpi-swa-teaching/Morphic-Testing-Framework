@@ -1,10 +1,10 @@
 test cases
-testCalculatorAddition
+testCalculatorClearFunction
 
 	| display |
 	display := self subject findByClass: TextFieldMorph.
 	(self subject findByLabel: '5') click.
-	(self subject findByLabel: '+') click.
-	(self subject findByLabel: '7') click.
+	(self subject findByLabel: 'C') click.
+	self assert: display contents = '0'.
 	(self subject findByLabel: '=') click.
-	self assert: display contents = '12'.
+	self assert: display contents = '0'.
