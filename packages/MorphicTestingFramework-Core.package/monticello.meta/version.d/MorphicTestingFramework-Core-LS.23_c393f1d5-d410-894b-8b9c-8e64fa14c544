@@ -1,0 +1,1 @@
+(name 'MorphicTestingFramework-Core-LS.23'message 'implemented tearDown in MTFTestCase to automatically delete the subject by default'id 'c393f1d5-d410-894b-8b9c-8e64fa14c544'date '24 June 2014'time '12:08:06.954 pm'author 'LS'ancestors ((id '02b2e4c3-f3cb-46bc-8f3c-49f7313e378d'))stepChildren ())
