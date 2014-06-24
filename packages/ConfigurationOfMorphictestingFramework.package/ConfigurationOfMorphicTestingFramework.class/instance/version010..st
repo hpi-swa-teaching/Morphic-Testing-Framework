@@ -10,5 +10,9 @@ version010: spec
 			spec timestamp: '6/24/2014 12:00'.
 			spec
 				baseline: 'Project12' 
-					with: [ spec repository: 'github://SWTI2014/SWTI2014-Project-12:563ed4de168a5d4c586b108a73382a2d52cfbb9a/packages' ];
+					with: [ 
+							spec 
+								className: 'BaselineOfProject12';
+								loads: #();
+								repository: 'github://SWTI2014/SWTI2014-Project-12:563ed4de168a5d4c586b108a73382a2d52cfbb9a/packages' ];
 				import: 'Project12' ]
