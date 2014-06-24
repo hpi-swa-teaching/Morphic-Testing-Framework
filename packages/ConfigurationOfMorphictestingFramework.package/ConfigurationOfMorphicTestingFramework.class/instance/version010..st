@@ -12,7 +12,5 @@ version010: spec
 				baseline: 'Project12'
 					with: [
 						spec
-							className: 'BaselineOfProject12';
-							loads: #();
 							repository: 								'github://SWTI2014/SWTI2014-Project-12:master/packages' ];
 				import: 'Project12' ]
