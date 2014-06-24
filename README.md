@@ -13,31 +13,43 @@ Automated UI testing should be an essential part of your application as it gets 
 
 ##Installation
 
-
+Coming soon
 
 ##First test
 
-Create a Test-class to your application. For our MTFCalculator, we will create MTFCalculatorTest and implement the basic setUp and tearDown methods. This is a nice way to write short understandable tests:
+You can write your UI tests just as your unit tests and run them in the SUnit test runner. To create a UI test case, simply inherit it from MTFTestCase and you get all the SUnit stuff plus the frameworks UI testing abilities:
+```
+MTFTestCase subclass: #MyUITestCase
+    instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'MyCategory'
+```
 
-    setUp
+To test your interface, overwrite the setUp message:
+
+    MyUITestCase>>setUp
+	    self wantsToTest: MyUserInterface new.
+
+Now we could test that our button named 'fancy' changes its color when it is clicked:
+```
+    MyUITestCase>>testFancyClick
     
-	    self wantsToTest: MTFCalculator new.
+        |button|
+        button := self subject findByClass: SimpleButtonMorph.
+        self assert: button color = Color white.
+        button click.
+        self assert: button color = Color red.
+```
 
-Within the setUp we can specify the Morph/Application we want to test. The MTFTestCase will then provide the morph in every test as *subject*.
-
-	tearDown 
-
-	    self deleteMorphs.
-
-*deleteMorphs* will close the application and also all other morphs or wrapper.
+##Give me more
+For more detailed examples of how to use the framework, refer to the API section or take a look at the MTFCalculatorTests in the Morphic-Testing-Framework-Tests package.
 
 #API
 
 ##Setup
 
-###MTFTestCase
-
-####wantsToTest: aMorph
+####MTFTestCase>>wantsToTest: aMorph
 Should be called in your `MTFTestCase>>setUp`.
 Sets the subject of the test case to be accessible as an MTFMorphWrapper in your test methods.
 In case the interactions are "slowed down" (see MTFTestCase>>slowTestBy) to run the tests visually the morph is automatically opened in the world.
@@ -49,21 +61,21 @@ Example:
         self wantsToTest: MyUserInterface new.
 ```
 
-####subject
+####MTFTestCase>>subject
 Returns the morph wrapper for the morph specified in `MTFTestCase>>wantsToTest: aMorph`.
 
-####slowTestBy: aNumber
+####MTFTestCase>>slowTestBy: aNumber
 By default all tests run headless meaning you cannot trace the performed interactiosn visually. To change this, this message allows you to delay all interactions by the given number of milliseconds.
 
-###MTFMorphWrapper
+##Simulate interactions
 
-####click
+####MTFMorphWrapper>>click
 Sends a click event to all morphs contained in the wrapper.
 
-####sendKey: aCharacter
+####MTFMorphWrapper>>sendKey: aCharacter
 Sends a keystroke event for the specified character to all morphs contained in the wrapper.
 
-####sendKeys: aString
+####MTFMorphWrapper>>sendKeys: aString
 Sends a the specified string to all morphs contained in the wrapper.
 Internally, `sendKey ` is used, so
 ```
@@ -82,4 +94,15 @@ is equivalent to
 
 ##Finding morphs
 
-##Simulate interactions
+####MTFMorphWrapper>>findByName: aString
+Recursively finds all submorphs that have the passed name and returns a wrapper containing them.
+
+Note: Giving mutliple morphs the same name is generally a bad practice.
+
+####MTFMorphWrapper>>findByClass: aClass
+Recursively finds all submorphs that are instances of the passed class and returns a wrapper containing them.
+
+####MTFMorphWrapper>>findByLabel: aString
+Recursively finds all submorphs that have the passed label and returns a wrapper containing them.
+
+Note: This refers to the label message available for example on a SimpleButtonMorph. This only works on the Morph classes explicitly defined in the framework.
