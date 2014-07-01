@@ -13,7 +13,39 @@ Automated UI testing should be an essential part of your application as it gets 
 
 ##Installation
 
-Coming soon
+###Unix
+
+``` 
+Metacello new
+  configuration: 'MorphicTestingFramework';
+  version: #stable;
+  repository: 'github://SWTI2014/SWTI2014-Project-12:master/packages';
+  load.
+```
+
+###Windows
+
+Unfortunately, the simple approach does not work under windows, because github-protocol is not supported yet. In order to install on windows, execute the following command inside your `Resources` directory:
+
+```
+git clone https://github.com/SWTI2014/SWTI2014-Project-12.git morphic-testing-framework
+```
+
+Then, execute this snippet in a workspace of the corresponding Squeak image:
+
+```
+Metacello new
+  configuration: 'MorphicTestingFramework';
+  version: #stable;
+  repository: (MCFileTreeFileUtils current default / 'morphic-testing-framework') fullName;
+  load.
+  
+Metacello new
+  configuration: 'MorphictestingFramework';
+  version: #stable;
+  filetreeDirectory: (MCFileTreeFileUtils current default / 'morphic-testing-framework') fullName;
+  load.
+```
 
 ##First test
 
