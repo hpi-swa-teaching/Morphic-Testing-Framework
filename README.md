@@ -7,8 +7,6 @@ MorphicTestingFrameworks extends your morphic UI with great testing capabilities
 - [Introduction](#Introduction)
 - [Getting started](#Getting started)
   - [Installation](#Installation)
-    - [Unix](#Unix)
-    - [Windows and Unix](#Windows and Unix)
   - [First test](#First test)
   - [Give me more](#Give me more)
 - [API](#API)
@@ -28,7 +26,6 @@ Automated UI testing should be an essential part of your application as it gets 
 <a name="Installation"></a>
 ##Installation
 
-<a name="Unix"></a>
 ###Unix
 
 Curl must be installed on your operating system.
@@ -40,8 +37,7 @@ Metacello new
   load.
 ```
 
-<a name="Windows and Unix"></a>
-###Windows and Unix
+###Windows (and also Unix)
 
 Unfortunately, the simple approach does not work under Windows, because github-protocol is not supported yet. In order to install on Windows, execute the following command inside your `Contents\Resources` directory:
 
