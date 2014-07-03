@@ -17,8 +17,7 @@ Automated UI testing should be an essential part of your application as it gets 
 
 ``` 
 Metacello new
-  configuration: 'MorphicTestingFramework';
-  version: #stable;
+  baseline: 'Project12';
   repository: 'github://SWTI2014/SWTI2014-Project-12:master/packages';
   load.
 ```
