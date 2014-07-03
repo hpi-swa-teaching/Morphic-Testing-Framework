@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/SWTI2014/SWTI2014-Project-12.svg?branch=master)](https://travis-ci.org/SWTI2014/SWTI2014-Project-12)
 
-MorphicTestingFrameworks extends your morphic UI with great testing capabilities. Give it a try!
-
 - [Introduction](#Introduction)
 - [Getting started](#Getting started)
   - [Installation](#Installation)
