@@ -36,7 +36,16 @@ Then, execute this snippet in a workspace of the corresponding Squeak image:
 Metacello new
   configuration: 'MorphicTestingFramework';
   version: #stable;
-  filetreeDirectory: (MCFileTreeFileUtils current default / 'morphic-testing-framework' / 'packages') fullName, '/';
+  filetreeDirectory: (MCFileTreeFileUtils current default / 'morphic-testing-framework' / 'packages') fullName;
+  load.
+```
+
+It should also be possible to load the package via the baseline:
+
+```
+Metacello new
+  baseline: 'Project12';
+  filetreeDirectory: (MCFileTreeFileUtils current default / 'morphic-testing-framework' / 'packages') fullName;
   load.
 ```
 
