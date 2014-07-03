@@ -25,7 +25,7 @@ Metacello new
 
 ###Windows
 
-Unfortunately, the simple approach does not work under windows, because github-protocol is not supported yet. In order to install on windows, execute the following command inside your `Resources` directory:
+Unfortunately, the simple approach does not work under windows, because github-protocol is not supported yet. In order to install on windows, execute the following command inside your `Contents\Resources` directory:
 
 ```
 git clone https://github.com/SWTI2014/SWTI2014-Project-12.git morphic-testing-framework
@@ -37,13 +37,7 @@ Then, execute this snippet in a workspace of the corresponding Squeak image:
 Metacello new
   configuration: 'MorphicTestingFramework';
   version: #stable;
-  repository: (MCFileTreeFileUtils current default / 'morphic-testing-framework') fullName;
-  load.
-  
-Metacello new
-  configuration: 'MorphictestingFramework';
-  version: #stable;
-  filetreeDirectory: (MCFileTreeFileUtils current default / 'morphic-testing-framework') fullName;
+  filetreeDirectory: (MCFileTreeFileUtils current default / 'morphic-testing-framework' / 'packages') fullName, '/';
   load.
 ```
 
