@@ -9,6 +9,7 @@ initialize
 		textfield3: TextMorph new;
 		panel: Morph new;
 		panelButton: SimpleButtonMorph new;
+		clickmorph: MTFClickMorph new;
 		applyStyle;
 		initializeInteractions.
 	
