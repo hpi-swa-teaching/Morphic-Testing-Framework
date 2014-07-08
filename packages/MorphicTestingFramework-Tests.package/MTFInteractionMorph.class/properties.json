@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"button",
-		"textfield1",
-		"textfield2",
-		"textfield3",
-		"panel",
-		"panelButton",
-		"interactionMorph" ],
-	"name" : "MTFSimpleForm",
+		"clickAction",
+		"label" ],
+	"name" : "MTFInteractionMorph",
 	"pools" : [
 		 ],
 	"super" : "Morph",

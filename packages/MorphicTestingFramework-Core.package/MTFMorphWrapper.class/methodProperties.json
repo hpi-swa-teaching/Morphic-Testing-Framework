@@ -5,6 +5,9 @@
 		"newWith:withDelay:" : "PA 6/10/2014 11:54" },
 	"instance" : {
 		"click" : "mb 6/17/2014 11:40",
+		"clickCmd" : "cw 7/8/2014 17:09",
+		"clickCtrl" : "cw 7/8/2014 17:09",
+		"clickShift" : "cw 7/8/2014 17:06",
 		"contains:" : "mb 5/24/2014 12:44",
 		"delay" : "PA 6/10/2014 12:04",
 		"delay:" : "PA 6/10/2014 12:04",

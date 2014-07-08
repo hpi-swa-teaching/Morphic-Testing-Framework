@@ -1,10 +1,10 @@
 interaction tests
-testWrapperClick
+testWrapperClickCtrl
 
 	| buttonWrapper |
 	self assert: (self subject interactionMorph label contents = 'not pressed').
 	
 	buttonWrapper := MTFMorphWrapper newWith: {subject interactionMorph}.
-	buttonWrapper click.
+	buttonWrapper clickCtrl.
 	
-	self assert: (self subject interactionMorph label contents = 'no modifiers').
+	self assert: (self subject interactionMorph label contents = 'control pressed').
