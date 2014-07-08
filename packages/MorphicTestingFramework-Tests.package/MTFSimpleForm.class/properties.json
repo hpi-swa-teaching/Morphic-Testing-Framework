@@ -12,7 +12,11 @@
 		"textfield3",
 		"panel",
 		"panelButton",
+<<<<<<< HEAD
 		"interactionMorph" ],
+=======
+		"clickmorph" ],
+>>>>>>> 419c638121f312b46474f19cef5f5c79ac8c11f5
 	"name" : "MTFSimpleForm",
 	"pools" : [
 		 ],

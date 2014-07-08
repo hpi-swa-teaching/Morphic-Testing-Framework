@@ -10,6 +10,7 @@ initialize
 		interactionMorph: MTFInteractionMorph new;
 		panel: Morph new;
 		panelButton: SimpleButtonMorph new;
+		clickmorph: MTFClickMorph new;
 		applyStyle;
 		initializeInteractions.
 	

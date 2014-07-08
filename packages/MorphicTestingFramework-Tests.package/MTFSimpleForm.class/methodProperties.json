@@ -3,7 +3,11 @@
 		 },
 	"instance" : {
 		"applyButtonStyle" : "mb 5/22/2014 15:34",
+<<<<<<< HEAD
 		"applyInteractionMorphStyle" : "cw 7/8/2014 16:53",
+=======
+		"applyClickmorphStyle" : "mb 7/8/2014 12:01",
+>>>>>>> 419c638121f312b46474f19cef5f5c79ac8c11f5
 		"applyPanelButtonStyle" : "mb 5/22/2014 15:39",
 		"applyPanelStyle" : "cw 5/28/2014 12:06",
 		"applyStyle" : "cw 7/8/2014 15:01",
@@ -11,7 +15,13 @@
 		"button" : "mb 5/13/2014 10:19",
 		"button:" : "mb 5/22/2014 15:26",
 		"click" : "cw 5/28/2014 11:50",
+<<<<<<< HEAD
 		"initialize" : "cw 7/8/2014 15:00",
+=======
+		"clickmorph" : "mb 7/8/2014 11:54",
+		"clickmorph:" : "mb 7/8/2014 12:03",
+		"initialize" : "mb 7/8/2014 11:59",
+>>>>>>> 419c638121f312b46474f19cef5f5c79ac8c11f5
 		"initializeInteractions" : "mb 5/13/2014 11:22",
 		"interactionMorph" : "cw 7/8/2014 14:59",
 		"interactionMorph:" : "cw 7/8/2014 16:51",
