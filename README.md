@@ -12,13 +12,13 @@
 - [API](#API)
   - [Setup](#Setup)
   - [Simulate interactions](#Simulate interactions)
-  - [Finding morphs](#Finding morphs)
+  - [Find morphs](#Find morphs)
 
 
 <a name="Introduction"></a>
 #Introduction
 
-Automated UI testing should be an essential part of your application as it gets bigger. While browser applications rely on the popular Selenium WebDriver it was not possible to efficiently test Morphic user interfaces - unituntil now.
+Automated UI testing should be an essential part of your application as it gets bigger. While browser applications rely on the popular Selenium WebDriver it was not possible to efficiently test Morphic user interfaces - until now.
 
 <a name="Getting started"></a>
 #Getting started
@@ -138,8 +138,8 @@ MyTestCase>>testThis
     self subject sendKeys: 'Hello'.
 ```
 
-<a name="Finding morphs"></a>
-##Finding morphs
+<a name="Find morphs"></a>
+##Find morphs
 
 ####MTFMorphWrapper>>findByName: aString
 Recursively finds all submorphs that have the passed name and returns a wrapper containing them.
