@@ -1,4 +1,0 @@
-private-accessing
-numberArea
-
-	^numberArea

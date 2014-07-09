@@ -1,4 +1,0 @@
-private-accessing
-operation
-
-	^operation
