@@ -1,0 +1,4 @@
+private-accessing
+lastInput
+	
+	^lastInput
