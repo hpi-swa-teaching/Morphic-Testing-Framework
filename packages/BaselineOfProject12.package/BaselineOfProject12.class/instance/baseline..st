@@ -9,7 +9,7 @@ baseline: spec
 				package: 'MorphicTestingFramework-Samples' with:
 					[ spec requires: #('Core') ];
 				package: 'MorphicTestingFramework-Tests' with: 
-					[ spec requires: #('default') ].
+					[ spec requires: #('Core') ].
 			spec
 				group: 'Core' with: #('MorphicTestingFramework-Core');
 				group: 'Samples' with: #('MorphicTestingFramework-Samples');
