@@ -7,4 +7,4 @@ testWrapperClickCmd
 	buttonWrapper := MTFMorphWrapper newWith: {subject interactionMorph}.
 	buttonWrapper clickCmd.
 	
-	self assert: (self subject interactionMorph label contents = 'command pressed').
+	self assert: (self subject interactionMorph label contents = '68').

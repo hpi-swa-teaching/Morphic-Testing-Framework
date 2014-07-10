@@ -7,4 +7,4 @@ testWrapperClick
 	buttonWrapper := MTFMorphWrapper newWith: {subject interactionMorph}.
 	buttonWrapper click.
 	
-	self assert: (self subject interactionMorph label contents = 'no modifiers').
+	self assert: (self subject interactionMorph label contents = '4').
