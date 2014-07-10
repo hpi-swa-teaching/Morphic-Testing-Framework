@@ -1,0 +1,4 @@
+constants
+rightButton
+
+	^ self yellowButton 

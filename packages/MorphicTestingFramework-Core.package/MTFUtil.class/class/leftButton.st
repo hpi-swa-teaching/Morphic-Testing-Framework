@@ -1,0 +1,4 @@
+constants
+leftButton
+
+	^ self redButton 

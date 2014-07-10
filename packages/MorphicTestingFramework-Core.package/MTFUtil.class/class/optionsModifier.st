@@ -1,0 +1,4 @@
+constants
+optionsModifier
+
+	^ 32
