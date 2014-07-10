@@ -1,0 +1,4 @@
+constants
+redButton
+
+	^ 4

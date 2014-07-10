@@ -7,7 +7,10 @@ applyStyle
 		height: 280;
 		color: (Color white).
 		
-	self applyButtonStyle.
-	self applyTextfieldStyle.
-	self applyPanelStyle.
-	self applyPanelButtonStyle.
+	self 
+		applyButtonStyle;
+		applyTextfieldStyle;
+		applyPanelStyle;
+		applyInteractionMorphStyle;
+		applyPanelButtonStyle.
+	

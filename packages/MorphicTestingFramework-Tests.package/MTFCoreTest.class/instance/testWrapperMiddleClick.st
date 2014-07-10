@@ -1,10 +1,10 @@
 interaction tests
-testWrapperClick
+testWrapperMiddleClick
 
 	| buttonWrapper |
 	self assert: (self subject interactionMorph label contents = 'not pressed').
 	
 	buttonWrapper := MTFMorphWrapper newWith: {subject interactionMorph}.
-	buttonWrapper click.
+	buttonWrapper clickShift.
 	
-	self assert: (self subject interactionMorph label contents = '4').
+	self assert: (self subject interactionMorph label contents = '2').

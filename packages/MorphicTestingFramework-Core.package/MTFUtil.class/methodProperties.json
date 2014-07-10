@@ -1,5 +1,15 @@
 {
 	"class" : {
-		"is:subclassOfAny:" : "mb 6/13/2014 16:06" },
+		"blueButton" : "cw 7/10/2014 11:05",
+		"commandModifier" : "cw 7/10/2014 11:07",
+		"controlModifier" : "cw 7/10/2014 11:07",
+		"is:subclassOfAny:" : "mb 6/13/2014 16:06",
+		"leftButton" : "cw 7/10/2014 11:06",
+		"middleButton" : "cw 7/10/2014 11:06",
+		"optionsModifier" : "cw 7/10/2014 11:07",
+		"redButton" : "cw 7/10/2014 11:05",
+		"rightButton" : "cw 7/10/2014 11:06",
+		"shiftModifier" : "cw 7/10/2014 11:06",
+		"yellowButton" : "cw 7/10/2014 11:04" },
 	"instance" : {
 		 } }
