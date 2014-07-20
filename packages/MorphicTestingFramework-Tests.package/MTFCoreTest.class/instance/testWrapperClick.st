@@ -7,4 +7,4 @@ testWrapperClick
 	buttonWrapper := MTFMorphWrapper newWith: {subject button}.
 	buttonWrapper click.
 	
-	self assert: (subject color = Color blue).
+	self assert: (self subject color = Color blue).
