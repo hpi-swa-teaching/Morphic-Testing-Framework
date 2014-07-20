@@ -12,10 +12,14 @@
 		"testMethodparentWorld" : "mb 5/24/2014 12:46",
 		"testMorphOpenInWorld" : "mb 6/12/2014 18:35",
 		"testSUnitIntegration" : "LS 5/10/2014 18:56",
+<<<<<<< HEAD
+		"testWrapperClick" : "PA 6/26/2014 11:42",
+=======
 		"testWrapperClick" : "mb 7/10/2014 11:55",
 		"testWrapperClickCmd" : "mb 7/10/2014 11:56",
 		"testWrapperClickCtrl" : "mb 7/10/2014 11:56",
 		"testWrapperClickShift" : "mb 7/10/2014 11:56",
+>>>>>>> master
 		"testWrapperContains" : "PA 6/10/2014 12:00",
 		"testWrapperDelay" : "cw 6/12/2014 11:52",
 		"testWrapperDelayMorphInWorld" : "cw 6/12/2014 12:04",

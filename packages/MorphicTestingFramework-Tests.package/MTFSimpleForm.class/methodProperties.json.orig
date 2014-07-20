@@ -2,9 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+<<<<<<< HEAD
 		"applyButtonStyle" : "PA 6/26/2014 11:34",
+=======
+		"applyButtonStyle" : "mb 5/22/2014 15:34",
 		"applyClickmorphStyle" : "cw 7/8/2014 17:24:45.947",
 		"applyInteractionMorphStyle" : "cw 7/8/2014 16:53",
+>>>>>>> master
 		"applyPanelButtonStyle" : "mb 5/22/2014 15:39",
 		"applyPanelStyle" : "cw 5/28/2014 12:06",
 		"applyStyle" : "cw 7/8/2014 15:01",
