@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "PA 6/26/2014 11:48",
+		"setUp" : "mb 7/20/2014 11:23",
 		"tearDown" : "cw 6/12/2014 11:43",
 		"testClickAtAbsolutePosition" : "PA 7/3/2014 12:07",
 		"testClickAtRelativePosition" : "PA 6/26/2014 11:35",
@@ -25,9 +25,9 @@
 		"testWrapperFindDeepByClass" : "PA 6/10/2014 12:00",
 		"testWrapperFindDeepByName" : "PA 6/10/2014 12:00",
 		"testWrapperFindMultiByClass" : "PA 6/10/2014 12:00",
-		"testWrapperMiddleClick" : "mb 7/10/2014 11:57",
+		"testWrapperMiddleClick" : "mb 7/20/2014 11:22",
 		"testWrapperNewWithDelay" : "cw 6/12/2014 11:22",
-		"testWrapperRightClick" : "mb 7/10/2014 11:57",
+		"testWrapperRightClick" : "mb 7/20/2014 11:22",
 		"testWrapperSendKeyKeystroke" : "PA 6/10/2014 12:01",
 		"testWrapperSendKeyKeystrokeMultipleMorphs" : "PA 6/10/2014 12:01",
 		"testWrapperSendKeys" : "PA 6/10/2014 12:01",
