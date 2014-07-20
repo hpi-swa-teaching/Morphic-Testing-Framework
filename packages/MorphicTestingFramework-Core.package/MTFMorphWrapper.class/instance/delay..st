@@ -1,4 +1,4 @@
 private-accessing
 delay: anObject
 
-	delay := anObject
+	delay := anObject.

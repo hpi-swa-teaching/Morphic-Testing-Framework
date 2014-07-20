@@ -1,4 +1,4 @@
 private-accessing
 morphs: anObject
 
-	morphs := anObject
+	morphs := anObject.
