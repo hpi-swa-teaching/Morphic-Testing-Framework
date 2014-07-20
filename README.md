@@ -61,7 +61,7 @@ You can write your UI tests just as your unit tests and run them in the SUnit te
 ```
 MTFTestCase subclass: #MyUITestCase
     instanceVariableNames: ''
-	classVariableNames: ''
+    classVariableNames: ''
 	poolDictionaries: ''
 	category: 'MyCategory'
 ```
@@ -115,8 +115,44 @@ By default all tests run headless meaning you cannot trace the performed interac
 <a name="Simulate interactions"></a>
 ##Simulate interactions
 
-####MTFMorphWrapper>>click
-Sends a click event to all morphs contained in the wrapper.
+####MTFMorphWrapper>> leftMouseClickWith
+__MTFMorphWrapper>> leftMouseClickWith: modifiers__    
+__MTFMorphWrapper>> rightMouseClickWith__    
+__MTFMorphWrapper>> rightMouseClickWith: modifiers__    
+__MTFMorphWrapper>> middleMouseClickWith__    
+__MTFMorphWrapper>> middleMouseClickWith: modifiers__    
+Sends a left/right/middle click event to all morphs contained in the wrapper. THe `modifiers` argument is used to simulate clicks combined with pressed SHIFT, CTRL or CMD and can be omitted. If you want to use modifiers use the conctant defined in the MTFMorphWrapper as in the following example:
+```
+    MyTestCase>>testThis
+        self subject leftMouseClickWith: MTFMorphWrapper shiftModifier.
+        self subject rightMouseClick.
+```
+
+####MTFMorphWrapper>> leftMouseDownWith
+__MTFMorphWrapper>> leftMouseDownWith: modifiers__    
+__MTFMorphWrapper>> rightMouseDownWith__    
+__MTFMorphWrapper>> rightMouseDownWith: modifiers__    
+__MTFMorphWrapper>> middleMouseDownWith__    
+__MTFMorphWrapper>> middleMouseDownWith: modifiers__    
+Sends a left/right/middle mouse down event to all morphs contained in the wrapper. THe `modifiers` argument is used to simulate mouse down events combined with pressed SHIFT, CTRL or CMD and can be omitted. If you want to use modifiers use the conctant defined in the MTFMorphWrapper as in the following example:
+```
+    MyTestCase>>testThis
+        self subject leftMouseDowkWith: MTFMorphWrapper shiftModifier.
+        self subject rightMouseDown.
+```
+
+####MTFMorphWrapper>> leftMouseUpWith
+__MTFMorphWrapper>> leftMouseUpWith: modifiers__    
+__MTFMorphWrapper>> rightMouseUpWith__    
+__MTFMorphWrapper>> rightMouseUpWith: modifiers__    
+__MTFMorphWrapper>> middleMouseUpWith__    
+__MTFMorphWrapper>> middleMouseUpWith: modifiers__  
+Sends a left/right/middle mouse up event to all morphs contained in the wrapper. THe `modifiers` argument is used to simulate mouse downup events combined with pressed SHIFT, CTRL or CMD and can be omitted. If you want to use modifiers use the conctant defined in the MTFMorphWrapper as in the following example:
+```
+    MyTestCase>>testThis
+        self subject leftMouseUpWith: MTFMorphWrapper shiftModifier.
+        self subject rightMouseUp.
+```
 
 ####MTFMorphWrapper>>sendKey: aCharacter
 Sends a keystroke event for the specified character to all morphs contained in the wrapper.
@@ -126,11 +162,11 @@ Sends a the specified string to all morphs contained in the wrapper.
 Internally, `sendKey ` is used, so
 ```
     MyTestCase>>testThis
-    self subject sendKey: 'H'.
-    self subject sendKey: 'e'.
-    self subject sendKey: 'l'.
-    self subject sendKey: 'l'.
-    self subject sendKey: 'o'.
+        self subject sendKey: 'H'.
+        self subject sendKey: 'e'.
+        self subject sendKey: 'l'.
+        self subject sendKey: 'l'.
+        self subject sendKey: 'o'.
 ```
 is equivalent to 
 ```
@@ -152,4 +188,4 @@ Recursively finds all submorphs that are instances of the passed class and retur
 ####MTFMorphWrapper>>findByLabel: aString
 Recursively finds all submorphs that have the passed label and returns a wrapper containing them.
 
-Note: This refers to the label message available for example on a SimpleButtonMorph. This only works on the Morph classes explicitly defined in the framework.
+Note: This refers to the label message available for example on a SimpleButtonMorph. This only works on the Morph classes explicitly defined in the framework. can
