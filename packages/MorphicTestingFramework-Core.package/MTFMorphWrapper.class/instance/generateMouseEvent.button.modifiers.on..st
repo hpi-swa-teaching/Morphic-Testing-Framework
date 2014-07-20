@@ -8,4 +8,4 @@ generateMouseEvent: aSymbol button: aMouseButton modifiers: modifiersValue on: a
 		which: 0
 		buttons: aMouseButton + modifiersValue
 		hand: self
-		stamp: Time millisecondClockValue.
+		stamp: Time millisecondClockValue

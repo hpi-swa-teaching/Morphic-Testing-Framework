@@ -8,4 +8,4 @@ generateKeyboardEvent: aType with: aKey on: aMorph
 		position: aMorph center
 		keyValue: aKey
 		hand: self
-		stamp: Time millisecondClockValue.
+		stamp: Time millisecondClockValue

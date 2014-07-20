@@ -1,4 +1,4 @@
 navigating
 parent
 
-	^morphs first owner.
+	^morphs first owner
