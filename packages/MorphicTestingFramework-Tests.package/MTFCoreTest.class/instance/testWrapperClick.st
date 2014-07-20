@@ -2,9 +2,9 @@ interaction tests
 testWrapperClick
 
 	| buttonWrapper |
-	self assert: (self subject color = Color white).
+	self assert: (self subject interactionMorph label contents = 'not pressed').
 	
-	buttonWrapper := MTFMorphWrapper newWith: {subject button}.
+	buttonWrapper := MTFMorphWrapper newWith: {subject interactionMorph}.
 	buttonWrapper click.
 	
-	self assert: (self subject color = Color blue).
+	self assert: (self subject interactionMorph label contents = '4').

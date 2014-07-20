@@ -11,7 +11,8 @@
 		"textfield2",
 		"textfield3",
 		"panel",
-		"panelButton" ],
+		"panelButton",
+		"interactionMorph" ],
 	"name" : "MTFSimpleForm",
 	"pools" : [
 		 ],

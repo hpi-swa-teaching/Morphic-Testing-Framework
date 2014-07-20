@@ -7,8 +7,10 @@ initialize
 		textfield1: TextMorph new;
 		textfield2: TextMorph new;
 		textfield3: TextMorph new;
+		interactionMorph: MTFInteractionMorph new;
 		panel: Morph new;
 		panelButton: SimpleButtonMorph new;
+		clickmorph: MTFClickMorph new;
 		applyStyle;
 		initializeInteractions.
 	

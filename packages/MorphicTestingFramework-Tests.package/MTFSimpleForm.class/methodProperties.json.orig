@@ -1,0 +1,34 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+<<<<<<< HEAD
+		"applyButtonStyle" : "PA 6/26/2014 11:34",
+=======
+		"applyButtonStyle" : "mb 5/22/2014 15:34",
+		"applyClickmorphStyle" : "cw 7/8/2014 17:24:45.947",
+		"applyInteractionMorphStyle" : "cw 7/8/2014 16:53",
+>>>>>>> master
+		"applyPanelButtonStyle" : "mb 5/22/2014 15:39",
+		"applyPanelStyle" : "cw 5/28/2014 12:06",
+		"applyStyle" : "cw 7/8/2014 15:01",
+		"applyTextfieldStyle" : "cw 5/28/2014 12:05",
+		"button" : "mb 5/13/2014 10:19",
+		"button:" : "mb 5/22/2014 15:26",
+		"click" : "cw 5/28/2014 11:50",
+		"clickmorph" : "cw 7/8/2014 17:24:45.947",
+		"clickmorph:" : "cw 7/8/2014 17:24:45.947",
+		"initialize" : "cw 7/8/2014 15:00",
+		"initializeInteractions" : "mb 5/13/2014 11:22",
+		"interactionMorph" : "cw 7/8/2014 14:59",
+		"interactionMorph:" : "cw 7/8/2014 16:51",
+		"panel" : "mb 5/22/2014 15:25",
+		"panel:" : "mb 5/22/2014 15:38",
+		"panelButton" : "mb 5/22/2014 15:27",
+		"panelButton:" : "mb 5/22/2014 15:38",
+		"textfield1" : "cw 5/28/2014 11:42",
+		"textfield1:" : "cw 5/28/2014 11:47",
+		"textfield2" : "cw 5/28/2014 11:42",
+		"textfield2:" : "cw 5/28/2014 11:46",
+		"textfield3" : "cw 5/28/2014 11:42",
+		"textfield3:" : "cw 5/28/2014 11:44" } }

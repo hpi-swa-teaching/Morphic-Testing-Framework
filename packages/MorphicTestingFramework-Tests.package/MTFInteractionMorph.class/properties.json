@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MTFCalculatorTest",
+		"clickAction",
+		"label" ],
+	"name" : "MTFInteractionMorph",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "Morph",
 	"type" : "normal" }

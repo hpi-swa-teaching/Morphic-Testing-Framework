@@ -1,0 +1,50 @@
+{
+	"class" : {
+		"classesWithLabel" : "mb 6/13/2014 16:55",
+		"newWith:" : "PA 6/10/2014 11:55",
+		"newWith:withDelay:" : "PA 6/10/2014 11:54" },
+	"instance" : {
+<<<<<<< HEAD
+		"click" : "mb 6/17/2014 11:40",
+		"clickAtAbsolute:" : "PA 7/10/2014 11:42",
+		"clickAtRelative:" : "PA 6/26/2014 11:43",
+=======
+		"click" : "cw 7/10/2014 11:10",
+		"clickCmd" : "cw 7/10/2014 11:29",
+		"clickCtrl" : "cw 7/10/2014 11:30",
+		"clickShift" : "cw 7/10/2014 11:31",
+>>>>>>> master
+		"contains:" : "mb 5/24/2014 12:44",
+		"delay" : "PA 6/10/2014 12:04",
+		"delay:" : "PA 6/10/2014 12:04",
+		"deleteMorphs" : "cw 6/12/2014 11:18",
+		"doesNotUnderstand:" : "mb 6/12/2014 20:16",
+		"findByClass:" : "mb 6/13/2014 14:37",
+		"findByCriteria:" : "LS 5/27/2014 11:33",
+		"findByLabel:" : "mb 6/13/2014 16:56",
+		"findByName:" : "mb 6/13/2014 14:38",
+		"findByPosition:" : "PA 7/10/2014 11:44",
+		"forDeepMorphsDo:" : "LS 5/27/2014 11:25",
+		"forDeepSubMorphsOf:do:" : "LS 5/27/2014 11:11",
+		"generateKeyboardEvent:with:on:" : "cw 5/27/2014 12:55",
+		"generateMouseEvent:button:modifiers:on:" : "cw 7/10/2014 11:33",
+		"generateMouseEvent:button:on:" : "cw 7/10/2014 11:14",
+		"labelSupportFor:" : "mb 6/13/2014 16:56",
+<<<<<<< HEAD
+		"mapButton:" : "PA 7/3/2014 12:05",
+		"mapButtons:" : "PA 7/3/2014 11:57",
+=======
+		"leftClick" : "cw 7/10/2014 11:15",
+		"leftClickWith:" : "cw 7/10/2014 11:27",
+		"middleClick" : "cw 7/10/2014 11:16",
+		"middleClickWith:" : "cw 7/10/2014 11:27",
+>>>>>>> master
+		"morphs" : "mb 5/24/2014 11:56",
+		"morphs:" : "mb 5/24/2014 11:57",
+		"parent" : "mb 5/24/2014 12:47",
+		"rightClick" : "cw 7/10/2014 11:15",
+		"rightClickwith:" : "cw 7/10/2014 11:28",
+		"sendKey:" : "PA 6/10/2014 13:00",
+		"sendKeys:" : "PA 6/10/2014 13:00",
+		"wait" : "mb 6/17/2014 11:24",
+		"wait:" : "mb 6/17/2014 11:24" } }
