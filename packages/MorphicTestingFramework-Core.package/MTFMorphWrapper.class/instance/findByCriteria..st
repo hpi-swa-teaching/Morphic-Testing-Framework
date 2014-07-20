@@ -1,4 +1,4 @@
-finding
+navigating
 findByCriteria: aBlock
 
 	| foundMorphs |
@@ -6,4 +6,4 @@ findByCriteria: aBlock
 	self forDeepMorphsDo: [ :curMorph |
 		(aBlock value: curMorph) ifTrue: [foundMorphs add: curMorph].
 	].
-	^foundMorphs
+	^self createWrapperFor: foundMorphs

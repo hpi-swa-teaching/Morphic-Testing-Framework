@@ -1,4 +1,0 @@
-constants
-yellowButton
-
-	^ 1

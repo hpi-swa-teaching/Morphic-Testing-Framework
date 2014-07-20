@@ -1,19 +1,10 @@
 interacting
-leftClickWith: modifiersValue
+leftClickWith: modifiers
 	
-	| aThirdOfNormal |
-	aThirdOfNormal := (1/3).
-	self morphs do: [ :morph |
-		morph mouseDown: 
-			(self generateMouseEvent: #mouseDown 
-				button: MTFUtil leftButton 
-				modifiers: modifiersValue
-				on: morph).
-		self wait: aThirdOfNormal.
-		morph mouseUp: 
-			(self generateMouseEvent: #mouseUp 
-				button: MTFUtil leftButton 
-				modifiers: modifiersValue
-				on: morph).
+	self morphs do: [ :morph | |wrapper |
+		wrapper := (self createWrapperFor: {morph}).
+		wrapper leftMouseDown: modifiers.
+		self waitShort.
+		wrapper leftMouseUp: modifiers.
 		self wait.
 	].

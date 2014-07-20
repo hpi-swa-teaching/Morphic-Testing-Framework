@@ -1,4 +1,4 @@
 waiting
 wait
 	
-	self wait: 1.
+	self waitWith: 1.

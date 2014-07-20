@@ -1,4 +1,0 @@
-constants
-commandModifier
-
-	^ 64

@@ -1,4 +1,4 @@
-private-finding
+private-accessing
 forDeepSubMorphsOf: aMorph do: aBlock
 	
 	aMorph submorphs do: [ :subMorph |

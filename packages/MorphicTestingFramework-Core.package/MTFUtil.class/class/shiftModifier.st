@@ -1,4 +1,0 @@
-constants
-shiftModifier
-
-	^ 8

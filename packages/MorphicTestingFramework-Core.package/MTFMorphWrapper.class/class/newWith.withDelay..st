@@ -1,4 +1,4 @@
-instance creation
+instance-creation
 newWith: Morphs withDelay: aNumber
 	|wrapper|
 	wrapper := self new.

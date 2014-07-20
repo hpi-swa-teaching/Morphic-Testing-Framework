@@ -1,6 +1,6 @@
-finding
+navigating
 findByName: aName
 
-	^MTFMorphWrapper newWith: (self findByCriteria: [ :curMorph |
+	^self findByCriteria: [ :curMorph |
 		curMorph nameOfObjectRepresented = aName.
-	]) withDelay: self delay.
+	]

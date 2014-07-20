@@ -1,4 +1,0 @@
-constants
-redButton
-
-	^ 4

@@ -1,4 +1,4 @@
 interacting
 clickShift
 
-	self leftClickWith: MTFUtil shiftModifier.
+	self leftClickWith: MTFMorphWrapper shiftModifier.

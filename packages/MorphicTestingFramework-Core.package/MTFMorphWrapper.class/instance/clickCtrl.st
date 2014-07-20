@@ -1,4 +1,4 @@
 interacting
 clickCtrl
 
-		self leftClickWith: MTFUtil controlModifier.
+	self leftClickWith: MTFMorphWrapper controlModifier.

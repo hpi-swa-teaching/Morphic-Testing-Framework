@@ -1,5 +1,5 @@
 waiting
-wait: aFactor
+waitWith: aFactor
 	
 	self redraw.
 	delay > 0 ifTrue:

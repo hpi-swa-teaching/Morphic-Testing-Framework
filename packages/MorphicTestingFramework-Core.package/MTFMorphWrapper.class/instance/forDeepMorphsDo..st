@@ -1,4 +1,4 @@
-private-finding
+private-accessing
 forDeepMorphsDo: aBlock
 
 	self morphs do: [ :curMorph |

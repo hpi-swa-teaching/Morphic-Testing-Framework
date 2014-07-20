@@ -1,6 +1,6 @@
-finding
+navigating
 findByClass: aClass
 
-	^MTFMorphWrapper newWith: (self findByCriteria: [ :curMorph |
+	^self findByCriteria: [ :curMorph |
 		curMorph class = aClass.
-	]) withDelay: self delay.
+	]

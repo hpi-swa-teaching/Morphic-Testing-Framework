@@ -1,6 +1,7 @@
-Event creation
+private-event-generation
 generateKeyboardEvent: aType with: aKey on: aMorph
-	"type can be #keyDown, #keyUp, #keystroke"
+	"aType can be #keyDown, #keyUp, #keystroke"
+	
 	^KeyboardEvent new
 		setType: aType
 		buttons: 0

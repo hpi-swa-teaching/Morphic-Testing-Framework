@@ -1,4 +1,4 @@
 interacting
 clickCmd
 
-	self leftClickWith: MTFUtil commandModifier.
+	self leftClickWith: MTFMorphWrapper commandModifier.

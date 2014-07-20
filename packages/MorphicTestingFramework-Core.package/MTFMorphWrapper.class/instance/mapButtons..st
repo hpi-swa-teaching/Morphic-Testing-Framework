@@ -1,4 +1,4 @@
-as yet unclassified
+private-event-generation
 mapButtons: someMouseButtons
 	"Maps symbols to the integer equivalent used by morphic events."
 	

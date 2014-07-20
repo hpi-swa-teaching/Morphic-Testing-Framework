@@ -1,6 +1,6 @@
-deletion
+interacting
 deleteMorphs
 
-		self morphs do: [ :morph | morph delete].
+	self morphs do: [ :morph | morph delete].
 				
 			

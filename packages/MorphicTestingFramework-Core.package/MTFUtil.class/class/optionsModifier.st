@@ -1,4 +1,0 @@
-constants
-optionsModifier
-
-	^ 32
