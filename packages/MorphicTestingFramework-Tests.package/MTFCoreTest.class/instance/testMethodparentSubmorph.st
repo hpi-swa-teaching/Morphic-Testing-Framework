@@ -1,12 +1,12 @@
 test cases
-testMethodparentSubmorph
+testMethodParentSubmorph
+
 	| parentMorph subMorph subWrapper |
 	parentMorph := Morph new.
-	parentMorph openInWorld.
 	subMorph := Morph new.
-	parentMorph addMorph: subMorph.
 	subWrapper := MTFMorphWrapper newWith: {subMorph}.
+	parentMorph 
+		openInWorld;
+		addMorph: subMorph.
 	self assert: subWrapper parent = parentMorph.
 	parentMorph delete.
-	
-	

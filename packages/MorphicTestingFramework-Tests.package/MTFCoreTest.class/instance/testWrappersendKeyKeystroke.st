@@ -12,4 +12,3 @@ testWrapperSendKeyKeystroke
 	self assert: (wrapper text = 'aG*').
 	wrapper sendKey: $3.
 	self assert: (wrapper text = 'aG*3').
-	

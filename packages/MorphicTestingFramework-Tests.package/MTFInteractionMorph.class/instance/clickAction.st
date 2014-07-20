@@ -1,4 +1,4 @@
 accessing
 clickAction
 
-	^ clickAction
+	^clickAction

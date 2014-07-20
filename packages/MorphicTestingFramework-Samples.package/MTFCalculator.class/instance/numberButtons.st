@@ -1,4 +1,4 @@
 private-accessing
 numberButtons
 
-	^numberButtons.
+	^numberButtons

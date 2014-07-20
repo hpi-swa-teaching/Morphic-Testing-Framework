@@ -1,4 +1,4 @@
 accessing
 delay
 
-	^ delay ifNil: [0]
+	^delay ifNil: [0]

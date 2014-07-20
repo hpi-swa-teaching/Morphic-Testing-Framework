@@ -1,4 +1,4 @@
 private-accessing
 currentInputBecomesFraction
 
-	^self currentInput asString includesSubString: '.'.
+	^self currentInput asString includesSubString: '.'

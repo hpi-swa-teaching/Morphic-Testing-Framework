@@ -2,7 +2,9 @@ interaction tests
 testWrapperSendKeyKeystrokeMultipleMorphs
 	
 	| wrapper textfields |
-	textfields := Set with: (self subject textfield1) with: (self subject textfield2) with: (self subject textfield3).
+	textfields := Set with: (self subject textfield1) 
+		with: (self subject textfield2) 
+		with: (self subject textfield3).
 	wrapper := MTFMorphWrapper newWith: textfields.
 	self subject textfield1 newContents: ''.
 	self subject textfield2 newContents: ''.

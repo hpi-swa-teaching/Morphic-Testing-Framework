@@ -1,0 +1,1 @@
+The MTFCalculator is a sample GUI-application with some logic to test with the MorphicTestingsFramework. Have a look into the MTFCalculatorTest to get some impressions on how to use the awesome MTFTestCase.

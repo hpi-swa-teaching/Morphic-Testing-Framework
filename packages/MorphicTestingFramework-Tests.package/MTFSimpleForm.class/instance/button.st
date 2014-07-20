@@ -1,4 +1,4 @@
 accessing
 button
 
-	^ button
+	^button
