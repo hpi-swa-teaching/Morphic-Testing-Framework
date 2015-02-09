@@ -1,6 +1,6 @@
 # Morphic Testing Framework
 
-[![Build Status](https://travis-ci.org/SWTI2014/Morphic-Testing-Framework.svg?branch=master)](https://travis-ci.org/SWTI2014/Morphic-Testing-Framework)
+[![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Morphic-Testing-Framework.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/Morphic-Testing-Framework)
 
 ###Morphic Testing Framework
 
@@ -33,7 +33,7 @@ Curl must be installed on your operating system.
 ``` 
 Metacello new
   baseline: 'Project12';
-  repository: 'github://SWTI2014/SWTI2014-Project-12:master/packages';
+  repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages';
   load.
 ```
 
@@ -42,7 +42,7 @@ Metacello new
 Unfortunately, the simple approach does not work under Windows, because github-protocol is not supported yet. In order to install on Windows, execute the following command inside your `Contents\Resources` directory:
 
 ```
-git clone https://github.com/SWTI2014/SWTI2014-Project-12.git morphic-testing-framework
+git clone https://github.com/HPI-SWA-Teaching/Morphic-Testing-Framework.git morphic-testing-framework
 ```
 
 Then, execute this snippet in a workspace of the corresponding Squeak image:
