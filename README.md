@@ -28,9 +28,9 @@ Curl must be installed on your operating system.
 
 ``` Smalltalk
 Metacello new
-  baseline: 'Project12';
-  repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages';
-  load.
+    baseline: 'Project12';
+    repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages';
+    load.
 ```
 
 ###Windows (and also Unix)
@@ -45,9 +45,9 @@ Then, execute this snippet in a workspace of the corresponding Squeak image:
 
 ```Smalltalk
 Metacello new
-  baseline: 'Project12';
-  filetreeDirectory: (MCFileTreeFileUtils current default / 'morphic-testing-framework' / 'packages') fullName;
-  load.
+    baseline: 'Project12';
+    filetreeDirectory: (MCFileTreeFileUtils current default / 'morphic-testing-framework' / 'packages') fullName;
+    load.
 ```
 
 ##First test
@@ -57,8 +57,8 @@ You can write your UI tests just as your unit tests and run them in the SUnit te
 MTFTestCase subclass: #MyUITestCase
     instanceVariableNames: ''
     classVariableNames: ''
-	poolDictionaries: ''
-	category: 'MyCategory'
+    poolDictionaries: ''
+    category: 'MyCategory'
 ```
 
 To test your interface, overwrite the setUp message:
@@ -111,9 +111,9 @@ By default all tests run headless meaning you cannot trace the performed interac
 
 Sends a left/right/middle click event to all morphs contained in the wrapper. The `modifiers` argument is used to simulate clicks combined with pressed SHIFT, CTRL or CMD and can be omitted. If you want to use modifiers use the conctant defined in the MTFMorphWrapper as in the following example:
 ```
-    MyTestCase>>testThis
-        self subject leftMouseClickWith: MTFMorphWrapper shiftModifier.
-        self subject rightMouseClick.
+MyTestCase>>testThis
+    self subject leftMouseClickWith: MTFMorphWrapper shiftModifier.
+    self subject rightMouseClick.
 ```
 ####Mouse Down
 
@@ -126,9 +126,9 @@ Sends a left/right/middle click event to all morphs contained in the wrapper. Th
 
 Sends a left/right/middle mouse down event to all morphs contained in the wrapper. The `modifiers` argument is used to simulate mouse down events combined with pressed SHIFT, CTRL or CMD and can be omitted. If you want to use modifiers use the conctant defined in the MTFMorphWrapper as in the following example:
 ```Smalltalk
-    MyTestCase>>testThis
-        self subject leftMouseDowkWith: MTFMorphWrapper shiftModifier.
-        self subject rightMouseDown.
+MyTestCase>>testThis
+    self subject leftMouseDowkWith: MTFMorphWrapper shiftModifier.
+    self subject rightMouseDown.
 ```
 
 ####Mouse Up
@@ -141,9 +141,9 @@ Sends a left/right/middle mouse down event to all morphs contained in the wrappe
 
 Sends a left/right/middle mouse up event to all morphs contained in the wrapper. The `modifiers` argument is used to simulate mouse downup events combined with pressed SHIFT, CTRL or CMD and can be omitted. If you want to use modifiers use the conctant defined in the MTFMorphWrapper as in the following example:
 ```Smalltalk
-    MyTestCase>>testThis
-        self subject leftMouseUpWith: MTFMorphWrapper shiftModifier.
-        self subject rightMouseUp.
+MyTestCase>>testThis
+    self subject leftMouseUpWith: MTFMorphWrapper shiftModifier.
+    self subject rightMouseUp.
 ```
 ####Key Events
 #####MTFMorphWrapper>>sendKey: aCharacter
@@ -153,12 +153,12 @@ Sends a keystroke event for the specified character to all morphs contained in t
 Sends a the specified string to all morphs contained in the wrapper.
 Internally, `sendKey ` is used, so
 ```Smalltalk
-    MyTestCase>>testThis
-        self subject sendKey: 'H'.
-        self subject sendKey: 'e'.
-        self subject sendKey: 'l'.
-        self subject sendKey: 'l'.
-        self subject sendKey: 'o'.
+MyTestCase>>testThis
+    self subject sendKey: 'H'.
+    self subject sendKey: 'e'.
+    self subject sendKey: 'l'.
+    self subject sendKey: 'l'.
+    self subject sendKey: 'o'.
 ```
 is equivalent to 
 ```Smalltalk
