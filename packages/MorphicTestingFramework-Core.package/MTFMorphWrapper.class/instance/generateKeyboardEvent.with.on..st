@@ -7,5 +7,5 @@ generateKeyboardEvent: aType with: aKey on: aMorph
 		buttons: 0
 		position: aMorph center
 		keyValue: aKey
-		hand: self
+		hand: self hand
 		stamp: Time millisecondClockValue
