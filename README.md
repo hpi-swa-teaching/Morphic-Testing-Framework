@@ -127,7 +127,7 @@ MyTestCase>>testThis
 Sends a left/right/middle mouse down event to all morphs contained in the wrapper. The `modifiers` argument is used to simulate mouse down events combined with pressed SHIFT, CTRL or CMD and can be omitted. If you want to use modifiers use the conctant defined in the MTFMorphWrapper as in the following example:
 ```Smalltalk
 MyTestCase>>testThis
-    self subject leftMouseDowkWith: MTFMorphWrapper shiftModifier.
+    self subject leftMouseDownWith: MTFMorphWrapper shiftModifier.
     self subject rightMouseDown.
 ```
 
