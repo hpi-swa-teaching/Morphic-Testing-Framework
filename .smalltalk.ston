@@ -1,0 +1,10 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'Project12',
+      #directory : 'packages',
+      #load : 'Tests',
+      #platforms : [ #squeak ]
+    }
+  ]
+}
