@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Morphic-Testing-Framework.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/Morphic-Testing-Framework)
 
-###Morphic Testing Framework
+### Morphic Testing Framework
 
 - [Introduction](#Introduction)
 - [Getting started](#Getting started)
@@ -14,15 +14,15 @@
   - [Simulate interactions](#Simulate interactions)
   - [Find morphs](#Find morphs)
 
-#Introduction
+# Introduction
 
 Automated UI testing should be an essential part of your application as it gets bigger. While browser applications rely on the popular Selenium WebDriver it was not possible to efficiently test Morphic user interfaces - until now.
 
-#Getting started
+# Getting started
 
-##Installation
+## Installation
 
-###Unix
+### Unix
 
 Curl must be installed on your operating system.
 
@@ -33,7 +33,7 @@ Metacello new
     load.
 ```
 
-###Windows (and also Unix)
+### Windows (and also Unix)
 
 Unfortunately, the simple approach does not work under Windows, because github-protocol is not supported yet. In order to install on Windows, execute the following command inside your `Contents\Resources` directory:
 
@@ -81,10 +81,10 @@ MyUITestCase>>testFancyClick
 ##Give me more
 For more detailed examples of how to use the framework, refer to the API section or take a look at the MTFCalculatorTests in the Morphic-Testing-Framework-Tests package.
 
-#API
+# API
 
-##Setup
-#####MTFTestCase>>wantsToTest: aMorph
+## Setup
+##### MTFTestCase>>wantsToTest: aMorph
 `MTFTestCase>>wantsToTest: aMorph` should be called in your `MTFTestCase>>setUp`.
 It sets the subject of the test case to be accessible as an MTFMorphWrapper in your test methods.
 
@@ -94,14 +94,14 @@ MTFTestCase>>setUp
     self wantsToTest: MyUserInterface new.
 ```
 
-#####MTFTestCase>>subject
+##### MTFTestCase>>subject
 Returns the morph wrapper for the morph specified in `MTFTestCase>>wantsToTest: aMorph`.
 
-#####MTFTestCase>>slowTestBy: aNumber
+##### MTFTestCase>>slowTestBy: aNumber
 By default all tests run headless meaning you cannot trace the performed interactiosn visually. To change this, this message allows you to delay all interactions by the given number of milliseconds. You can call `MTFTestCase>>slowTestBy:` to run the test visually. In this case the subject is shown in the world and the interactions are slowed down. Therefore, you can follow the test. Note: You should not call openInWorld on the morph you want to test by yourself.
 
-##Simulate interactions
-####Mouse Clicks
+## Simulate interactions
+#### Mouse Clicks
 - MTFMorphWrapper>>leftMouseClickWith
 - MTFMorphWrapper>>leftMouseClickWith: modifiers   
 - MTFMorphWrapper>>rightMouseClickWith
@@ -115,7 +115,7 @@ MyTestCase>>testThis
     self subject leftMouseClickWith: MTFMorphWrapper shiftModifier.
     self subject rightMouseClick.
 ```
-####Mouse Down
+#### Mouse Down
 
 - MTFMorphWrapper>> leftMouseDownWith
 - MTFMorphWrapper>> leftMouseDownWith: modifiers 
@@ -131,7 +131,7 @@ MyTestCase>>testThis
     self subject rightMouseDown.
 ```
 
-####Mouse Up
+#### Mouse Up
 - MTFMorphWrapper>> leftMouseUpWith
 - MTFMorphWrapper>> leftMouseUpWith: modifiers
 - MTFMorphWrapper>> rightMouseUpWith    
@@ -145,11 +145,11 @@ MyTestCase>>testThis
     self subject leftMouseUpWith: MTFMorphWrapper shiftModifier.
     self subject rightMouseUp.
 ```
-####Key Events
-#####MTFMorphWrapper>>sendKey: aCharacter
+#### Key Events
+##### MTFMorphWrapper>>sendKey: aCharacter
 Sends a keystroke event for the specified character to all morphs contained in the wrapper.
 
-#####MTFMorphWrapper>>sendKeys: aString
+##### MTFMorphWrapper>>sendKeys: aString
 Sends a the specified string to all morphs contained in the wrapper.
 Internally, `sendKey ` is used, so
 ```Smalltalk
@@ -165,24 +165,24 @@ is equivalent to
 MyTestCase>>testThis
     self subject sendKeys: 'Hello'.
 ```
-#####MTFMorphWrapper>>sendKeyEvent: aType characterValue: aValue
+##### MTFMorphWrapper>>sendKeyEvent: aType characterValue: aValue
 This is the generic method you can use to create custom key. Here is an example how this is used to implement `MTFMorphWrapper>>sendKey:`. 
 ```Smalltalk
 MTFMorphWrapper>>sendKey: aCharacter
     self sendKeyEvent: #keystroke characterValue: aCharacter asInteger.
 ```
 
-##Find morphs
+## Find morphs
 
-#####MTFMorphWrapper>>findByName: aString
+##### MTFMorphWrapper>>findByName: aString
 Recursively finds all submorphs that have the passed name and returns a wrapper containing them.
 
 Note: Giving mutliple morphs the same name is generally a bad practice.
 
-#####MTFMorphWrapper>>findByClass: aClass
+##### MTFMorphWrapper>>findByClass: aClass
 Recursively finds all submorphs that are instances of the passed class and returns a wrapper containing them.
 
-#####MTFMorphWrapper>>findByLabel: aString
+##### MTFMorphWrapper>>findByLabel: aString
 Recursively finds all submorphs that have the passed label and returns a wrapper containing them.
 
 Note: This refers to the label message available for example on a SimpleButtonMorph. This only works on the Morph classes explicitly defined in the framework. can
