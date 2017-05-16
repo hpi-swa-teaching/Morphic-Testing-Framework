@@ -5,14 +5,14 @@
 ### Morphic Testing Framework
 
 - [Introduction](#Introduction)
-- [Getting started](#Getting started)
-  - [Installation](#Installation)
-  - [First test](#First test)
-  - [Give me more](#Give me more)
+- [Getting started](#Getting-started)
+  - [Installation](##Installation)
+  - [First test](###First-test)
+  - [Give me more](##Give-me-more)
 - [API](#API)
   - [Setup](#Setup)
-  - [Simulate interactions](#Simulate interactions)
-  - [Find morphs](#Find morphs)
+  - [Simulate interactions](#Simulate-interactions)
+  - [Find morphs](#Find-morphs)
 
 # Introduction
 
@@ -50,7 +50,7 @@ Metacello new
     load.
 ```
 
-##First test
+## First test
 
 You can write your UI tests just as your unit tests and run them in the SUnit test runner. To create a UI test case, simply inherit it from MTFTestCase and you get all the SUnit stuff plus the frameworks UI testing abilities:
 ```Smalltalk
@@ -78,7 +78,7 @@ MyUITestCase>>testFancyClick
     self assert: button color = Color red.
 ```
 
-##Give me more
+## Give me more
 For more detailed examples of how to use the framework, refer to the API section or take a look at the MTFCalculatorTests in the Morphic-Testing-Framework-Tests package.
 
 # API
