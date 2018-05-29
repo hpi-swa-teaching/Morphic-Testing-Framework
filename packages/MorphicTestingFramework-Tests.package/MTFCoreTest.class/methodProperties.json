@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedFailures" : "pre 5/29/2018 15:48",
 		"setUp" : "mb 7/20/2014 11:23",
 		"tearDown" : "cw 6/12/2014 11:43",
 		"testClickAtAbsolutePosition" : "pre 5/29/2018 15:05",
@@ -15,6 +16,7 @@
 		"testWrapperClick" : "pre 5/29/2018 15:06",
 		"testWrapperClickCmd" : "pre 5/29/2018 15:06",
 		"testWrapperClickCtrl" : "pre 5/29/2018 15:06",
+		"testWrapperClickCtrlNoOp" : "pre 5/29/2018 15:48",
 		"testWrapperClickShift" : "pre 5/29/2018 15:06",
 		"testWrapperContains" : "PA 6/10/2014 12:00",
 		"testWrapperDelay" : "cw 6/12/2014 11:52",
