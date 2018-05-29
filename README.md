@@ -19,32 +19,13 @@ Automated UI testing should be an essential part of your application as it gets 
 # Getting started
 
 ## Installation
-
-### Unix
-
-Curl must be installed on your operating system.
+2. Load [Metacello](https://github.com/dalehenrich/metacello-work)
+3. Load the testing framework with the following command:
 
 ``` Smalltalk
 Metacello new
     baseline: 'Project12';
     repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages';
-    load.
-```
-
-### Windows (and also Unix)
-
-Unfortunately, the simple approach does not work under Windows, because github-protocol is not supported yet. In order to install on Windows, execute the following command inside your `Contents\Resources` directory:
-
-```
-git clone https://github.com/hpi-swa-teaching/Morphic-Testing-Framework.git morphic-testing-framework
-```
-
-Then, execute this snippet in a workspace of the corresponding Squeak image:
-
-```Smalltalk
-Metacello new
-    baseline: 'Project12';
-    filetreeDirectory: (MCFileTreeFileUtils current default / 'morphic-testing-framework' / 'packages') fullName;
     load.
 ```
 
