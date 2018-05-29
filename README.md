@@ -1,6 +1,4 @@
-# Morphic Testing Framework
-
-[![Build Status](https://travis-ci.org/hpi-swa-teaching/Morphic-Testing-Framework.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/Morphic-Testing-Framework)
+# Morphic Testing Framework [![Build Status](https://travis-ci.org/hpi-swa-teaching/Morphic-Testing-Framework.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/Morphic-Testing-Framework)
 
 ### Morphic Testing Framework
 
