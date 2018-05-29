@@ -19,8 +19,8 @@ Automated UI testing should be an essential part of your application as it gets 
 # Getting started
 
 ## Installation
-2. Load [Metacello](https://github.com/dalehenrich/metacello-work)
-3. Load the testing framework with the following command:
+1. Load [Metacello](https://github.com/dalehenrich/metacello-work)
+2. Load the testing framework with the following command:
 
 ``` Smalltalk
 Metacello new
