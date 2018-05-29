@@ -3,6 +3,6 @@ testWrapperSendKeysWithExistingText
 	
 	| wrapper |
 	wrapper := MTFMorphWrapper newWith: {self subject textfield1}.
-	self assert: (wrapper text = 'abc').
+	self assert: wrapper text = 'abc'.
 	wrapper sendKeys: 'test'.
-	self assert: (wrapper text = 'testabc').
+	self assert: wrapper text = 'testabc'.

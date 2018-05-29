@@ -6,5 +6,4 @@ sendMouseEvent: aType button: aButton modifiers: modifiers
 		morph handleEvent: (self generateMouseEvent: aType 
 			button: aButton
 			modifiers: modifiers
-			on: morph).
-	].
+			on: morph)].
