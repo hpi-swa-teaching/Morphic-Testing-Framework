@@ -1,4 +1,4 @@
 running
 deleteMorphs
 
-	self subject deleteMorphs.
+	self subject ifNotNil: #deleteMorphs.
