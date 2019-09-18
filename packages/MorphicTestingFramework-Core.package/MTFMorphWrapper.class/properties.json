@@ -1,0 +1,16 @@
+{
+	"category" : "MorphicTestingFramework-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mb 7/20/2014 13:01",
+	"instvars" : [
+		"morphs",
+		"delay",
+		"hand" ],
+	"name" : "MTFMorphWrapper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

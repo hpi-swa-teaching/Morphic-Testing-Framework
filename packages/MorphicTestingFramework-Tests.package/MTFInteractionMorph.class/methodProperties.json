@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"click:" : "cw 7/8/2014 17:11",
+		"clickAction" : "mb 7/20/2014 13:21",
+		"clickAction:" : "cw 7/8/2014 13:14",
+		"handlesMouseDown:" : "cw 7/8/2014 13:16",
+		"initialize" : "mb 7/20/2014 12:05",
+		"label" : "mb 7/20/2014 13:21",
+		"label:" : "cw 7/8/2014 14:35",
+		"mouseDown:" : "mb 7/10/2014 11:54" } }

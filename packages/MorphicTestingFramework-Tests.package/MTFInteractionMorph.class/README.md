@@ -1,0 +1,1 @@
+The MTFInteractionMorph catches click events in order to make testing the modifierleys possible. 

@@ -1,0 +1,4 @@
+private-constants
+classesWithLabel
+
+	^ {SimpleButtonMorph}

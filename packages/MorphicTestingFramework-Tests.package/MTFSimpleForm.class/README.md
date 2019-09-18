@@ -1,0 +1,1 @@
+This class provides a small UI application in order to test our interaction API for the Wrapper.

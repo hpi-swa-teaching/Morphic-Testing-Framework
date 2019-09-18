@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTestingFramework-Samples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mb 7/20/2014 12:45",
+	"instvars" : [
+		 ],
+	"name" : "MTFCalculatorTest",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }

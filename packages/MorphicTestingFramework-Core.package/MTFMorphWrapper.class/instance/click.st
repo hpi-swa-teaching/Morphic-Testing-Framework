@@ -1,0 +1,4 @@
+interacting
+click
+	
+	self leftClick.
