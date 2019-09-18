@@ -1,1 +1,0 @@
-Those tests are interesting if you want to understand how to use the MTF.

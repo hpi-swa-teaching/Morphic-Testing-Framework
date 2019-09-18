@@ -1,1 +1,0 @@
-This class extends the TestCase to simplify testing with the MTF. You can set a testing subject in setUp and slowTests. The testing subject is then availalbe as a wrapper in every test.

@@ -1,4 +1,0 @@
-accessing
-panelButton
-
-	^ panelButton

@@ -1,4 +1,0 @@
-interacting
-click
-	
-	self leftClick.
