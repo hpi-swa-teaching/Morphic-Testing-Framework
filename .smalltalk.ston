@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'Project12',
+      #baseline : 'MorphicTestingFramework',
       #directory : 'packages',
       #load : 'Tests',
       #platforms : [ #squeak ]
