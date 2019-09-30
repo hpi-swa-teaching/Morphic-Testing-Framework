@@ -1,0 +1,6 @@
+OrderedDictionary {
+	'packages\/BaselineOfMorphicTestingFramework.package' : #SquotCypressCodeSerializer,
+	'packages\/MorphicTestingFramework-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/MorphicTestingFramework-Samples.package' : #SquotCypressCodeSerializer,
+	'packages\/MorphicTestingFramework-Tests.package' : #SquotCypressCodeSerializer
+}
