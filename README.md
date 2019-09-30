@@ -24,7 +24,7 @@ Automated UI testing should be an essential part of your application as it gets 
 
 ``` Smalltalk
 Metacello new
-    baseline: 'Project12';
+    baseline: 'MorphicTestingFramework';
     repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages';
     load.
 ```
