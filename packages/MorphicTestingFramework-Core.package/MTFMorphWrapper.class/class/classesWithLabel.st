@@ -1,4 +1,4 @@
 private-constants
 classesWithLabel
 
-	^ {SimpleButtonMorph}
+	^ {SimpleButtonMorph . PluggableButtonMorph}
