@@ -22,12 +22,12 @@ Automated UI testing should be an essential part of your application as it gets 
 1. Load [Metacello](https://github.com/dalehenrich/metacello-work)
 2. Load the testing framework with the following command:
 
-``` Smalltalk
-Metacello new
-    baseline: 'MorphicTestingFramework';
-    repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages';
-    load.
-```
+   ```Smalltalk
+   Metacello new
+   	baseline: 'MorphicTestingFramework';
+   	repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages';
+   	load.
+   ```
 
 ## First test
 
