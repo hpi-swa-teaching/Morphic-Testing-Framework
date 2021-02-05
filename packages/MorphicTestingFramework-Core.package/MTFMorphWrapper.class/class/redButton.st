@@ -1,4 +1,4 @@
 private-constants
 redButton
 
-	^4
+	^MouseEvent redButton

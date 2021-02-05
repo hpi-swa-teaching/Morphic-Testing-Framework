@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"blueButton" : "LS 7/20/2014 13:07",
+		"blueButton" : "ct 2/5/2021 01:57",
 		"commandModifier" : "LS 7/20/2014 13:07",
 		"controlModifier" : "LS 7/20/2014 13:07",
 		"emptyEventModifier" : "LS 7/20/2014 11:43",
@@ -11,10 +11,10 @@
 		"newWith:" : "PA 6/10/2014 11:55",
 		"newWith:withDelay:" : "PA 6/10/2014 11:54",
 		"optionsModifier" : "LS 7/20/2014 13:08",
-		"redButton" : "LS 7/20/2014 13:09",
+		"redButton" : "ct 2/5/2021 01:58",
 		"rightButton" : "LS 7/20/2014 13:09",
 		"shiftModifier" : "LS 7/20/2014 13:09",
-		"yellowButton" : "LS 7/20/2014 13:09" },
+		"yellowButton" : "CT 7/13/2019 15:56" },
 	"instance" : {
 		"click" : "cw 7/10/2014 11:10",
 		"clickAtAbsolute:" : "LS 7/20/2014 11:41",

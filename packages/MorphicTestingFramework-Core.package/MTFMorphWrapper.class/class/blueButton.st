@@ -1,4 +1,4 @@
 private-constants
 blueButton
 
-	^2
+	^ MouseEvent blueButton
