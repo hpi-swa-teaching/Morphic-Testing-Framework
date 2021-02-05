@@ -7,4 +7,4 @@ testWrapperMiddleClick
 	buttonWrapper := MTFMorphWrapper newWith: {subject interactionMorph}.
 	buttonWrapper middleClick.
 	
-	self assert: self subject interactionMorph label contents = '2'.
+	self assert: self subject interactionMorph label contents = '1'.
