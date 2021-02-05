@@ -1,10 +1,8 @@
 {
 	"class" : {
 		"blueButton" : "LS 7/20/2014 13:07",
-		"classesWithLabel" : "mb 6/13/2014 16:55",
 		"commandModifier" : "LS 7/20/2014 13:07",
 		"controlModifier" : "LS 7/20/2014 13:07",
-		"doesSupportLabel:" : "LS 7/20/2014 13:14",
 		"emptyEventModifier" : "LS 7/20/2014 11:43",
 		"forDeepSubMorphsOf:do:" : "PA 7/20/2014 15:45",
 		"is:subclassOfAny:" : "LS 7/20/2014 13:13",
@@ -33,7 +31,7 @@
 		"doesNotUnderstand:" : "LS 7/20/2014 14:44",
 		"findByClass:" : "pre 5/29/2018 15:11",
 		"findByCriteria:" : "pre 5/29/2018 15:11",
-		"findByLabel:" : "pre 5/29/2018 15:11",
+		"findByLabel:" : "ct 2/5/2021 01:47",
 		"findByName:" : "LS 7/20/2014 11:55",
 		"findByPosition:" : "pre 5/29/2018 15:11",
 		"forDeepMorphsDo:" : "pre 5/29/2018 15:11",
