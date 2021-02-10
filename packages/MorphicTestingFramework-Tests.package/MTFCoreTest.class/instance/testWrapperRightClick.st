@@ -7,4 +7,4 @@ testWrapperRightClick
 	buttonWrapper := MTFMorphWrapper newWith: {subject interactionMorph}.
 	buttonWrapper rightClick.
 	
-	self assert: self subject interactionMorph label contents = '1'.
+	self assert: self subject interactionMorph label contents = '2'.

@@ -2,4 +2,4 @@ navigating
 findByLabel: aLabel
 
 	^self findByCriteria: [ :morph |
-		(MTFMorphWrapper doesSupportLabel: morph) and: [morph label = aLabel]]
+		(morph respondsTo: #label) and: [morph label = aLabel]]

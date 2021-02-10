@@ -1,4 +1,4 @@
 private-constants
 yellowButton
 
-	^1
+	^ MouseEvent yellowButton
